@@ -834,6 +834,10 @@ video {
   display: none !important;
 }
 
+[x-cloak="hidden"] {
+  display: none !important;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -8036,6 +8040,678 @@ video {
   --tw-translate-y: -100%;
 }
 
+.group:hover .group-hover\:translate-x-0 {
+  --tw-translate-x: 0px;
+}
+
+.group:hover .group-hover\:translate-x-1 {
+  --tw-translate-x: 0.25rem;
+}
+
+.group:hover .group-hover\:translate-x-2 {
+  --tw-translate-x: 0.5rem;
+}
+
+.group:hover .group-hover\:translate-x-3 {
+  --tw-translate-x: 0.75rem;
+}
+
+.group:hover .group-hover\:translate-x-4 {
+  --tw-translate-x: 1rem;
+}
+
+.group:hover .group-hover\:translate-x-5 {
+  --tw-translate-x: 1.25rem;
+}
+
+.group:hover .group-hover\:translate-x-6 {
+  --tw-translate-x: 1.5rem;
+}
+
+.group:hover .group-hover\:translate-x-7 {
+  --tw-translate-x: 1.75rem;
+}
+
+.group:hover .group-hover\:translate-x-8 {
+  --tw-translate-x: 2rem;
+}
+
+.group:hover .group-hover\:translate-x-9 {
+  --tw-translate-x: 2.25rem;
+}
+
+.group:hover .group-hover\:translate-x-10 {
+  --tw-translate-x: 2.5rem;
+}
+
+.group:hover .group-hover\:translate-x-11 {
+  --tw-translate-x: 2.75rem;
+}
+
+.group:hover .group-hover\:translate-x-12 {
+  --tw-translate-x: 3rem;
+}
+
+.group:hover .group-hover\:translate-x-14 {
+  --tw-translate-x: 3.5rem;
+}
+
+.group:hover .group-hover\:translate-x-16 {
+  --tw-translate-x: 4rem;
+}
+
+.group:hover .group-hover\:translate-x-20 {
+  --tw-translate-x: 5rem;
+}
+
+.group:hover .group-hover\:translate-x-24 {
+  --tw-translate-x: 6rem;
+}
+
+.group:hover .group-hover\:translate-x-28 {
+  --tw-translate-x: 7rem;
+}
+
+.group:hover .group-hover\:translate-x-32 {
+  --tw-translate-x: 8rem;
+}
+
+.group:hover .group-hover\:translate-x-36 {
+  --tw-translate-x: 9rem;
+}
+
+.group:hover .group-hover\:translate-x-40 {
+  --tw-translate-x: 10rem;
+}
+
+.group:hover .group-hover\:translate-x-44 {
+  --tw-translate-x: 11rem;
+}
+
+.group:hover .group-hover\:translate-x-48 {
+  --tw-translate-x: 12rem;
+}
+
+.group:hover .group-hover\:translate-x-52 {
+  --tw-translate-x: 13rem;
+}
+
+.group:hover .group-hover\:translate-x-56 {
+  --tw-translate-x: 14rem;
+}
+
+.group:hover .group-hover\:translate-x-60 {
+  --tw-translate-x: 15rem;
+}
+
+.group:hover .group-hover\:translate-x-64 {
+  --tw-translate-x: 16rem;
+}
+
+.group:hover .group-hover\:translate-x-72 {
+  --tw-translate-x: 18rem;
+}
+
+.group:hover .group-hover\:translate-x-80 {
+  --tw-translate-x: 20rem;
+}
+
+.group:hover .group-hover\:translate-x-96 {
+  --tw-translate-x: 24rem;
+}
+
+.group:hover .group-hover\:translate-x-px {
+  --tw-translate-x: 1px;
+}
+
+.group:hover .group-hover\:translate-x-0\.5 {
+  --tw-translate-x: 0.125rem;
+}
+
+.group:hover .group-hover\:translate-x-1\.5 {
+  --tw-translate-x: 0.375rem;
+}
+
+.group:hover .group-hover\:translate-x-2\.5 {
+  --tw-translate-x: 0.625rem;
+}
+
+.group:hover .group-hover\:translate-x-3\.5 {
+  --tw-translate-x: 0.875rem;
+}
+
+.group:hover .group-hover\:-translate-x-0 {
+  --tw-translate-x: 0px;
+}
+
+.group:hover .group-hover\:-translate-x-1 {
+  --tw-translate-x: -0.25rem;
+}
+
+.group:hover .group-hover\:-translate-x-2 {
+  --tw-translate-x: -0.5rem;
+}
+
+.group:hover .group-hover\:-translate-x-3 {
+  --tw-translate-x: -0.75rem;
+}
+
+.group:hover .group-hover\:-translate-x-4 {
+  --tw-translate-x: -1rem;
+}
+
+.group:hover .group-hover\:-translate-x-5 {
+  --tw-translate-x: -1.25rem;
+}
+
+.group:hover .group-hover\:-translate-x-6 {
+  --tw-translate-x: -1.5rem;
+}
+
+.group:hover .group-hover\:-translate-x-7 {
+  --tw-translate-x: -1.75rem;
+}
+
+.group:hover .group-hover\:-translate-x-8 {
+  --tw-translate-x: -2rem;
+}
+
+.group:hover .group-hover\:-translate-x-9 {
+  --tw-translate-x: -2.25rem;
+}
+
+.group:hover .group-hover\:-translate-x-10 {
+  --tw-translate-x: -2.5rem;
+}
+
+.group:hover .group-hover\:-translate-x-11 {
+  --tw-translate-x: -2.75rem;
+}
+
+.group:hover .group-hover\:-translate-x-12 {
+  --tw-translate-x: -3rem;
+}
+
+.group:hover .group-hover\:-translate-x-14 {
+  --tw-translate-x: -3.5rem;
+}
+
+.group:hover .group-hover\:-translate-x-16 {
+  --tw-translate-x: -4rem;
+}
+
+.group:hover .group-hover\:-translate-x-20 {
+  --tw-translate-x: -5rem;
+}
+
+.group:hover .group-hover\:-translate-x-24 {
+  --tw-translate-x: -6rem;
+}
+
+.group:hover .group-hover\:-translate-x-28 {
+  --tw-translate-x: -7rem;
+}
+
+.group:hover .group-hover\:-translate-x-32 {
+  --tw-translate-x: -8rem;
+}
+
+.group:hover .group-hover\:-translate-x-36 {
+  --tw-translate-x: -9rem;
+}
+
+.group:hover .group-hover\:-translate-x-40 {
+  --tw-translate-x: -10rem;
+}
+
+.group:hover .group-hover\:-translate-x-44 {
+  --tw-translate-x: -11rem;
+}
+
+.group:hover .group-hover\:-translate-x-48 {
+  --tw-translate-x: -12rem;
+}
+
+.group:hover .group-hover\:-translate-x-52 {
+  --tw-translate-x: -13rem;
+}
+
+.group:hover .group-hover\:-translate-x-56 {
+  --tw-translate-x: -14rem;
+}
+
+.group:hover .group-hover\:-translate-x-60 {
+  --tw-translate-x: -15rem;
+}
+
+.group:hover .group-hover\:-translate-x-64 {
+  --tw-translate-x: -16rem;
+}
+
+.group:hover .group-hover\:-translate-x-72 {
+  --tw-translate-x: -18rem;
+}
+
+.group:hover .group-hover\:-translate-x-80 {
+  --tw-translate-x: -20rem;
+}
+
+.group:hover .group-hover\:-translate-x-96 {
+  --tw-translate-x: -24rem;
+}
+
+.group:hover .group-hover\:-translate-x-px {
+  --tw-translate-x: -1px;
+}
+
+.group:hover .group-hover\:-translate-x-0\.5 {
+  --tw-translate-x: -0.125rem;
+}
+
+.group:hover .group-hover\:-translate-x-1\.5 {
+  --tw-translate-x: -0.375rem;
+}
+
+.group:hover .group-hover\:-translate-x-2\.5 {
+  --tw-translate-x: -0.625rem;
+}
+
+.group:hover .group-hover\:-translate-x-3\.5 {
+  --tw-translate-x: -0.875rem;
+}
+
+.group:hover .group-hover\:translate-x-1\/2 {
+  --tw-translate-x: 50%;
+}
+
+.group:hover .group-hover\:translate-x-1\/3 {
+  --tw-translate-x: 33.333333%;
+}
+
+.group:hover .group-hover\:translate-x-2\/3 {
+  --tw-translate-x: 66.666667%;
+}
+
+.group:hover .group-hover\:translate-x-1\/4 {
+  --tw-translate-x: 25%;
+}
+
+.group:hover .group-hover\:translate-x-2\/4 {
+  --tw-translate-x: 50%;
+}
+
+.group:hover .group-hover\:translate-x-3\/4 {
+  --tw-translate-x: 75%;
+}
+
+.group:hover .group-hover\:translate-x-full {
+  --tw-translate-x: 100%;
+}
+
+.group:hover .group-hover\:-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+}
+
+.group:hover .group-hover\:-translate-x-1\/3 {
+  --tw-translate-x: -33.333333%;
+}
+
+.group:hover .group-hover\:-translate-x-2\/3 {
+  --tw-translate-x: -66.666667%;
+}
+
+.group:hover .group-hover\:-translate-x-1\/4 {
+  --tw-translate-x: -25%;
+}
+
+.group:hover .group-hover\:-translate-x-2\/4 {
+  --tw-translate-x: -50%;
+}
+
+.group:hover .group-hover\:-translate-x-3\/4 {
+  --tw-translate-x: -75%;
+}
+
+.group:hover .group-hover\:-translate-x-full {
+  --tw-translate-x: -100%;
+}
+
+.group:hover .group-hover\:translate-y-0 {
+  --tw-translate-y: 0px;
+}
+
+.group:hover .group-hover\:translate-y-1 {
+  --tw-translate-y: 0.25rem;
+}
+
+.group:hover .group-hover\:translate-y-2 {
+  --tw-translate-y: 0.5rem;
+}
+
+.group:hover .group-hover\:translate-y-3 {
+  --tw-translate-y: 0.75rem;
+}
+
+.group:hover .group-hover\:translate-y-4 {
+  --tw-translate-y: 1rem;
+}
+
+.group:hover .group-hover\:translate-y-5 {
+  --tw-translate-y: 1.25rem;
+}
+
+.group:hover .group-hover\:translate-y-6 {
+  --tw-translate-y: 1.5rem;
+}
+
+.group:hover .group-hover\:translate-y-7 {
+  --tw-translate-y: 1.75rem;
+}
+
+.group:hover .group-hover\:translate-y-8 {
+  --tw-translate-y: 2rem;
+}
+
+.group:hover .group-hover\:translate-y-9 {
+  --tw-translate-y: 2.25rem;
+}
+
+.group:hover .group-hover\:translate-y-10 {
+  --tw-translate-y: 2.5rem;
+}
+
+.group:hover .group-hover\:translate-y-11 {
+  --tw-translate-y: 2.75rem;
+}
+
+.group:hover .group-hover\:translate-y-12 {
+  --tw-translate-y: 3rem;
+}
+
+.group:hover .group-hover\:translate-y-14 {
+  --tw-translate-y: 3.5rem;
+}
+
+.group:hover .group-hover\:translate-y-16 {
+  --tw-translate-y: 4rem;
+}
+
+.group:hover .group-hover\:translate-y-20 {
+  --tw-translate-y: 5rem;
+}
+
+.group:hover .group-hover\:translate-y-24 {
+  --tw-translate-y: 6rem;
+}
+
+.group:hover .group-hover\:translate-y-28 {
+  --tw-translate-y: 7rem;
+}
+
+.group:hover .group-hover\:translate-y-32 {
+  --tw-translate-y: 8rem;
+}
+
+.group:hover .group-hover\:translate-y-36 {
+  --tw-translate-y: 9rem;
+}
+
+.group:hover .group-hover\:translate-y-40 {
+  --tw-translate-y: 10rem;
+}
+
+.group:hover .group-hover\:translate-y-44 {
+  --tw-translate-y: 11rem;
+}
+
+.group:hover .group-hover\:translate-y-48 {
+  --tw-translate-y: 12rem;
+}
+
+.group:hover .group-hover\:translate-y-52 {
+  --tw-translate-y: 13rem;
+}
+
+.group:hover .group-hover\:translate-y-56 {
+  --tw-translate-y: 14rem;
+}
+
+.group:hover .group-hover\:translate-y-60 {
+  --tw-translate-y: 15rem;
+}
+
+.group:hover .group-hover\:translate-y-64 {
+  --tw-translate-y: 16rem;
+}
+
+.group:hover .group-hover\:translate-y-72 {
+  --tw-translate-y: 18rem;
+}
+
+.group:hover .group-hover\:translate-y-80 {
+  --tw-translate-y: 20rem;
+}
+
+.group:hover .group-hover\:translate-y-96 {
+  --tw-translate-y: 24rem;
+}
+
+.group:hover .group-hover\:translate-y-px {
+  --tw-translate-y: 1px;
+}
+
+.group:hover .group-hover\:translate-y-0\.5 {
+  --tw-translate-y: 0.125rem;
+}
+
+.group:hover .group-hover\:translate-y-1\.5 {
+  --tw-translate-y: 0.375rem;
+}
+
+.group:hover .group-hover\:translate-y-2\.5 {
+  --tw-translate-y: 0.625rem;
+}
+
+.group:hover .group-hover\:translate-y-3\.5 {
+  --tw-translate-y: 0.875rem;
+}
+
+.group:hover .group-hover\:-translate-y-0 {
+  --tw-translate-y: 0px;
+}
+
+.group:hover .group-hover\:-translate-y-1 {
+  --tw-translate-y: -0.25rem;
+}
+
+.group:hover .group-hover\:-translate-y-2 {
+  --tw-translate-y: -0.5rem;
+}
+
+.group:hover .group-hover\:-translate-y-3 {
+  --tw-translate-y: -0.75rem;
+}
+
+.group:hover .group-hover\:-translate-y-4 {
+  --tw-translate-y: -1rem;
+}
+
+.group:hover .group-hover\:-translate-y-5 {
+  --tw-translate-y: -1.25rem;
+}
+
+.group:hover .group-hover\:-translate-y-6 {
+  --tw-translate-y: -1.5rem;
+}
+
+.group:hover .group-hover\:-translate-y-7 {
+  --tw-translate-y: -1.75rem;
+}
+
+.group:hover .group-hover\:-translate-y-8 {
+  --tw-translate-y: -2rem;
+}
+
+.group:hover .group-hover\:-translate-y-9 {
+  --tw-translate-y: -2.25rem;
+}
+
+.group:hover .group-hover\:-translate-y-10 {
+  --tw-translate-y: -2.5rem;
+}
+
+.group:hover .group-hover\:-translate-y-11 {
+  --tw-translate-y: -2.75rem;
+}
+
+.group:hover .group-hover\:-translate-y-12 {
+  --tw-translate-y: -3rem;
+}
+
+.group:hover .group-hover\:-translate-y-14 {
+  --tw-translate-y: -3.5rem;
+}
+
+.group:hover .group-hover\:-translate-y-16 {
+  --tw-translate-y: -4rem;
+}
+
+.group:hover .group-hover\:-translate-y-20 {
+  --tw-translate-y: -5rem;
+}
+
+.group:hover .group-hover\:-translate-y-24 {
+  --tw-translate-y: -6rem;
+}
+
+.group:hover .group-hover\:-translate-y-28 {
+  --tw-translate-y: -7rem;
+}
+
+.group:hover .group-hover\:-translate-y-32 {
+  --tw-translate-y: -8rem;
+}
+
+.group:hover .group-hover\:-translate-y-36 {
+  --tw-translate-y: -9rem;
+}
+
+.group:hover .group-hover\:-translate-y-40 {
+  --tw-translate-y: -10rem;
+}
+
+.group:hover .group-hover\:-translate-y-44 {
+  --tw-translate-y: -11rem;
+}
+
+.group:hover .group-hover\:-translate-y-48 {
+  --tw-translate-y: -12rem;
+}
+
+.group:hover .group-hover\:-translate-y-52 {
+  --tw-translate-y: -13rem;
+}
+
+.group:hover .group-hover\:-translate-y-56 {
+  --tw-translate-y: -14rem;
+}
+
+.group:hover .group-hover\:-translate-y-60 {
+  --tw-translate-y: -15rem;
+}
+
+.group:hover .group-hover\:-translate-y-64 {
+  --tw-translate-y: -16rem;
+}
+
+.group:hover .group-hover\:-translate-y-72 {
+  --tw-translate-y: -18rem;
+}
+
+.group:hover .group-hover\:-translate-y-80 {
+  --tw-translate-y: -20rem;
+}
+
+.group:hover .group-hover\:-translate-y-96 {
+  --tw-translate-y: -24rem;
+}
+
+.group:hover .group-hover\:-translate-y-px {
+  --tw-translate-y: -1px;
+}
+
+.group:hover .group-hover\:-translate-y-0\.5 {
+  --tw-translate-y: -0.125rem;
+}
+
+.group:hover .group-hover\:-translate-y-1\.5 {
+  --tw-translate-y: -0.375rem;
+}
+
+.group:hover .group-hover\:-translate-y-2\.5 {
+  --tw-translate-y: -0.625rem;
+}
+
+.group:hover .group-hover\:-translate-y-3\.5 {
+  --tw-translate-y: -0.875rem;
+}
+
+.group:hover .group-hover\:translate-y-1\/2 {
+  --tw-translate-y: 50%;
+}
+
+.group:hover .group-hover\:translate-y-1\/3 {
+  --tw-translate-y: 33.333333%;
+}
+
+.group:hover .group-hover\:translate-y-2\/3 {
+  --tw-translate-y: 66.666667%;
+}
+
+.group:hover .group-hover\:translate-y-1\/4 {
+  --tw-translate-y: 25%;
+}
+
+.group:hover .group-hover\:translate-y-2\/4 {
+  --tw-translate-y: 50%;
+}
+
+.group:hover .group-hover\:translate-y-3\/4 {
+  --tw-translate-y: 75%;
+}
+
+.group:hover .group-hover\:translate-y-full {
+  --tw-translate-y: 100%;
+}
+
+.group:hover .group-hover\:-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+}
+
+.group:hover .group-hover\:-translate-y-1\/3 {
+  --tw-translate-y: -33.333333%;
+}
+
+.group:hover .group-hover\:-translate-y-2\/3 {
+  --tw-translate-y: -66.666667%;
+}
+
+.group:hover .group-hover\:-translate-y-1\/4 {
+  --tw-translate-y: -25%;
+}
+
+.group:hover .group-hover\:-translate-y-2\/4 {
+  --tw-translate-y: -50%;
+}
+
+.group:hover .group-hover\:-translate-y-3\/4 {
+  --tw-translate-y: -75%;
+}
+
+.group:hover .group-hover\:-translate-y-full {
+  --tw-translate-y: -100%;
+}
+
 .hover\:translate-x-0:hover {
   --tw-translate-x: 0px;
 }
@@ -10368,6 +11044,72 @@ video {
   --tw-scale-y: 1.5;
 }
 
+@-webkit-keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+            animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+            animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
 @-webkit-keyframes gradient-xy {
   0%, 100% {
     background-size: 400% 400%;
@@ -10480,19 +11222,94 @@ video {
   }
 }
 
+@-webkit-keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-2deg);
+  }
+
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-2deg);
+  }
+
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+.animate-none {
+  -webkit-animation: none;
+          animation: none;
+}
+
+.animate-spin {
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+.animate-ping {
+  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.animate-pulse {
+  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-bounce {
+  -webkit-animation: bounce 1s infinite;
+          animation: bounce 1s infinite;
+}
+
 .animate-gradient-xy {
   -webkit-animation: gradient-xy 10s ease infinite;
           animation: gradient-xy 10s ease infinite;
 }
 
 .animate-shape-perfil {
-  -webkit-animation: shape-perfil 25s ease infinite;
-          animation: shape-perfil 25s ease infinite;
+  -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+          animation: shape-perfil 25s ease-in-out alternate infinite;
 }
 
 .animate-shape-background-perfil {
-  -webkit-animation: shape-background-perfil 25s ease infinite;
-          animation: shape-background-perfil 25s ease infinite;
+  -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+          animation: shape-background-perfil 20s ease-in-out alternate infinite;
+}
+
+.animate-wiggle {
+  -webkit-animation: wiggle 1s ease-in-out infinite;
+          animation: wiggle 1s ease-in-out infinite;
+}
+
+.group:hover .group-hover\:animate-none {
+  -webkit-animation: none;
+          animation: none;
+}
+
+.group:hover .group-hover\:animate-spin {
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+.group:hover .group-hover\:animate-ping {
+  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.group:hover .group-hover\:animate-pulse {
+  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.group:hover .group-hover\:animate-bounce {
+  -webkit-animation: bounce 1s infinite;
+          animation: bounce 1s infinite;
 }
 
 .group:hover .group-hover\:animate-gradient-xy {
@@ -10501,13 +11318,63 @@ video {
 }
 
 .group:hover .group-hover\:animate-shape-perfil {
-  -webkit-animation: shape-perfil 25s ease infinite;
-          animation: shape-perfil 25s ease infinite;
+  -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+          animation: shape-perfil 25s ease-in-out alternate infinite;
 }
 
 .group:hover .group-hover\:animate-shape-background-perfil {
-  -webkit-animation: shape-background-perfil 25s ease infinite;
-          animation: shape-background-perfil 25s ease infinite;
+  -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+          animation: shape-background-perfil 20s ease-in-out alternate infinite;
+}
+
+.group:hover .group-hover\:animate-wiggle {
+  -webkit-animation: wiggle 1s ease-in-out infinite;
+          animation: wiggle 1s ease-in-out infinite;
+}
+
+.hover\:animate-none:hover {
+  -webkit-animation: none;
+          animation: none;
+}
+
+.hover\:animate-spin:hover {
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+.hover\:animate-ping:hover {
+  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.hover\:animate-pulse:hover {
+  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.hover\:animate-bounce:hover {
+  -webkit-animation: bounce 1s infinite;
+          animation: bounce 1s infinite;
+}
+
+.hover\:animate-gradient-xy:hover {
+  -webkit-animation: gradient-xy 10s ease infinite;
+          animation: gradient-xy 10s ease infinite;
+}
+
+.hover\:animate-shape-perfil:hover {
+  -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+          animation: shape-perfil 25s ease-in-out alternate infinite;
+}
+
+.hover\:animate-shape-background-perfil:hover {
+  -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+          animation: shape-background-perfil 20s ease-in-out alternate infinite;
+}
+
+.hover\:animate-wiggle:hover {
+  -webkit-animation: wiggle 1s ease-in-out infinite;
+          animation: wiggle 1s ease-in-out infinite;
 }
 
 .cursor-auto {
@@ -12892,6 +13759,54 @@ video {
 }
 
 .overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.hover\:overflow-auto:hover {
+  overflow: auto;
+}
+
+.hover\:overflow-hidden:hover {
+  overflow: hidden;
+}
+
+.hover\:overflow-visible:hover {
+  overflow: visible;
+}
+
+.hover\:overflow-scroll:hover {
+  overflow: scroll;
+}
+
+.hover\:overflow-x-auto:hover {
+  overflow-x: auto;
+}
+
+.hover\:overflow-y-auto:hover {
+  overflow-y: auto;
+}
+
+.hover\:overflow-x-hidden:hover {
+  overflow-x: hidden;
+}
+
+.hover\:overflow-y-hidden:hover {
+  overflow-y: hidden;
+}
+
+.hover\:overflow-x-visible:hover {
+  overflow-x: visible;
+}
+
+.hover\:overflow-y-visible:hover {
+  overflow-y: visible;
+}
+
+.hover\:overflow-x-scroll:hover {
+  overflow-x: scroll;
+}
+
+.hover\:overflow-y-scroll:hover {
   overflow-y: scroll;
 }
 
@@ -40710,6 +41625,678 @@ video {
     --tw-translate-y: -100%;
   }
 
+  .group:hover .sm\:group-hover\:translate-x-0 {
+    --tw-translate-x: 0px;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-1 {
+    --tw-translate-x: 0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-2 {
+    --tw-translate-x: 0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-3 {
+    --tw-translate-x: 0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-4 {
+    --tw-translate-x: 1rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-5 {
+    --tw-translate-x: 1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-6 {
+    --tw-translate-x: 1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-7 {
+    --tw-translate-x: 1.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-8 {
+    --tw-translate-x: 2rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-9 {
+    --tw-translate-x: 2.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-10 {
+    --tw-translate-x: 2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-11 {
+    --tw-translate-x: 2.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-12 {
+    --tw-translate-x: 3rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-14 {
+    --tw-translate-x: 3.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-16 {
+    --tw-translate-x: 4rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-20 {
+    --tw-translate-x: 5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-24 {
+    --tw-translate-x: 6rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-28 {
+    --tw-translate-x: 7rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-32 {
+    --tw-translate-x: 8rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-36 {
+    --tw-translate-x: 9rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-40 {
+    --tw-translate-x: 10rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-44 {
+    --tw-translate-x: 11rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-48 {
+    --tw-translate-x: 12rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-52 {
+    --tw-translate-x: 13rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-56 {
+    --tw-translate-x: 14rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-60 {
+    --tw-translate-x: 15rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-64 {
+    --tw-translate-x: 16rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-72 {
+    --tw-translate-x: 18rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-80 {
+    --tw-translate-x: 20rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-96 {
+    --tw-translate-x: 24rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-px {
+    --tw-translate-x: 1px;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-0\.5 {
+    --tw-translate-x: 0.125rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-1\.5 {
+    --tw-translate-x: 0.375rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-2\.5 {
+    --tw-translate-x: 0.625rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-3\.5 {
+    --tw-translate-x: 0.875rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-0 {
+    --tw-translate-x: 0px;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-1 {
+    --tw-translate-x: -0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-2 {
+    --tw-translate-x: -0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-3 {
+    --tw-translate-x: -0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-4 {
+    --tw-translate-x: -1rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-5 {
+    --tw-translate-x: -1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-6 {
+    --tw-translate-x: -1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-7 {
+    --tw-translate-x: -1.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-8 {
+    --tw-translate-x: -2rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-9 {
+    --tw-translate-x: -2.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-10 {
+    --tw-translate-x: -2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-11 {
+    --tw-translate-x: -2.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-12 {
+    --tw-translate-x: -3rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-14 {
+    --tw-translate-x: -3.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-16 {
+    --tw-translate-x: -4rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-20 {
+    --tw-translate-x: -5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-24 {
+    --tw-translate-x: -6rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-28 {
+    --tw-translate-x: -7rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-32 {
+    --tw-translate-x: -8rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-36 {
+    --tw-translate-x: -9rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-40 {
+    --tw-translate-x: -10rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-44 {
+    --tw-translate-x: -11rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-48 {
+    --tw-translate-x: -12rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-52 {
+    --tw-translate-x: -13rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-56 {
+    --tw-translate-x: -14rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-60 {
+    --tw-translate-x: -15rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-64 {
+    --tw-translate-x: -16rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-72 {
+    --tw-translate-x: -18rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-80 {
+    --tw-translate-x: -20rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-96 {
+    --tw-translate-x: -24rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-px {
+    --tw-translate-x: -1px;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-0\.5 {
+    --tw-translate-x: -0.125rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-1\.5 {
+    --tw-translate-x: -0.375rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-2\.5 {
+    --tw-translate-x: -0.625rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-3\.5 {
+    --tw-translate-x: -0.875rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-1\/2 {
+    --tw-translate-x: 50%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-1\/3 {
+    --tw-translate-x: 33.333333%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-2\/3 {
+    --tw-translate-x: 66.666667%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-1\/4 {
+    --tw-translate-x: 25%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-2\/4 {
+    --tw-translate-x: 50%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-3\/4 {
+    --tw-translate-x: 75%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-full {
+    --tw-translate-x: 100%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-1\/2 {
+    --tw-translate-x: -50%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-1\/3 {
+    --tw-translate-x: -33.333333%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-2\/3 {
+    --tw-translate-x: -66.666667%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-1\/4 {
+    --tw-translate-x: -25%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-2\/4 {
+    --tw-translate-x: -50%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-3\/4 {
+    --tw-translate-x: -75%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-full {
+    --tw-translate-x: -100%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-0 {
+    --tw-translate-y: 0px;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-1 {
+    --tw-translate-y: 0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-2 {
+    --tw-translate-y: 0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-3 {
+    --tw-translate-y: 0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-4 {
+    --tw-translate-y: 1rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-5 {
+    --tw-translate-y: 1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-6 {
+    --tw-translate-y: 1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-7 {
+    --tw-translate-y: 1.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-8 {
+    --tw-translate-y: 2rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-9 {
+    --tw-translate-y: 2.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-10 {
+    --tw-translate-y: 2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-11 {
+    --tw-translate-y: 2.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-12 {
+    --tw-translate-y: 3rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-14 {
+    --tw-translate-y: 3.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-16 {
+    --tw-translate-y: 4rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-20 {
+    --tw-translate-y: 5rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-24 {
+    --tw-translate-y: 6rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-28 {
+    --tw-translate-y: 7rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-32 {
+    --tw-translate-y: 8rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-36 {
+    --tw-translate-y: 9rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-40 {
+    --tw-translate-y: 10rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-44 {
+    --tw-translate-y: 11rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-48 {
+    --tw-translate-y: 12rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-52 {
+    --tw-translate-y: 13rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-56 {
+    --tw-translate-y: 14rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-60 {
+    --tw-translate-y: 15rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-64 {
+    --tw-translate-y: 16rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-72 {
+    --tw-translate-y: 18rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-80 {
+    --tw-translate-y: 20rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-96 {
+    --tw-translate-y: 24rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-px {
+    --tw-translate-y: 1px;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-0\.5 {
+    --tw-translate-y: 0.125rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-1\.5 {
+    --tw-translate-y: 0.375rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-2\.5 {
+    --tw-translate-y: 0.625rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-3\.5 {
+    --tw-translate-y: 0.875rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-0 {
+    --tw-translate-y: 0px;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-1 {
+    --tw-translate-y: -0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-2 {
+    --tw-translate-y: -0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-3 {
+    --tw-translate-y: -0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-4 {
+    --tw-translate-y: -1rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-5 {
+    --tw-translate-y: -1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-6 {
+    --tw-translate-y: -1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-7 {
+    --tw-translate-y: -1.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-8 {
+    --tw-translate-y: -2rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-9 {
+    --tw-translate-y: -2.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-10 {
+    --tw-translate-y: -2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-11 {
+    --tw-translate-y: -2.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-12 {
+    --tw-translate-y: -3rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-14 {
+    --tw-translate-y: -3.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-16 {
+    --tw-translate-y: -4rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-20 {
+    --tw-translate-y: -5rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-24 {
+    --tw-translate-y: -6rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-28 {
+    --tw-translate-y: -7rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-32 {
+    --tw-translate-y: -8rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-36 {
+    --tw-translate-y: -9rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-40 {
+    --tw-translate-y: -10rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-44 {
+    --tw-translate-y: -11rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-48 {
+    --tw-translate-y: -12rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-52 {
+    --tw-translate-y: -13rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-56 {
+    --tw-translate-y: -14rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-60 {
+    --tw-translate-y: -15rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-64 {
+    --tw-translate-y: -16rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-72 {
+    --tw-translate-y: -18rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-80 {
+    --tw-translate-y: -20rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-96 {
+    --tw-translate-y: -24rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-px {
+    --tw-translate-y: -1px;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-0\.5 {
+    --tw-translate-y: -0.125rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-1\.5 {
+    --tw-translate-y: -0.375rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-2\.5 {
+    --tw-translate-y: -0.625rem;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-3\.5 {
+    --tw-translate-y: -0.875rem;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-1\/2 {
+    --tw-translate-y: 50%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-1\/3 {
+    --tw-translate-y: 33.333333%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-2\/3 {
+    --tw-translate-y: 66.666667%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-1\/4 {
+    --tw-translate-y: 25%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-2\/4 {
+    --tw-translate-y: 50%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-3\/4 {
+    --tw-translate-y: 75%;
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-full {
+    --tw-translate-y: 100%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-1\/2 {
+    --tw-translate-y: -50%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-1\/3 {
+    --tw-translate-y: -33.333333%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-2\/3 {
+    --tw-translate-y: -66.666667%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-1\/4 {
+    --tw-translate-y: -25%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-2\/4 {
+    --tw-translate-y: -50%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-3\/4 {
+    --tw-translate-y: -75%;
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-full {
+    --tw-translate-y: -100%;
+  }
+
   .sm\:hover\:translate-x-0:hover {
     --tw-translate-x: 0px;
   }
@@ -43042,19 +44629,74 @@ video {
     --tw-scale-y: 1.5;
   }
 
+  .sm\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .sm\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .sm\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .sm\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .sm\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
   .sm\:animate-gradient-xy {
     -webkit-animation: gradient-xy 10s ease infinite;
             animation: gradient-xy 10s ease infinite;
   }
 
   .sm\:animate-shape-perfil {
-    -webkit-animation: shape-perfil 25s ease infinite;
-            animation: shape-perfil 25s ease infinite;
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
   }
 
   .sm\:animate-shape-background-perfil {
-    -webkit-animation: shape-background-perfil 25s ease infinite;
-            animation: shape-background-perfil 25s ease infinite;
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .sm\:animate-wiggle {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
+  }
+
+  .group:hover .sm\:group-hover\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .group:hover .sm\:group-hover\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .group:hover .sm\:group-hover\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .group:hover .sm\:group-hover\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .group:hover .sm\:group-hover\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
   }
 
   .group:hover .sm\:group-hover\:animate-gradient-xy {
@@ -43063,13 +44705,63 @@ video {
   }
 
   .group:hover .sm\:group-hover\:animate-shape-perfil {
-    -webkit-animation: shape-perfil 25s ease infinite;
-            animation: shape-perfil 25s ease infinite;
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
   }
 
   .group:hover .sm\:group-hover\:animate-shape-background-perfil {
-    -webkit-animation: shape-background-perfil 25s ease infinite;
-            animation: shape-background-perfil 25s ease infinite;
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .group:hover .sm\:group-hover\:animate-wiggle {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
+  }
+
+  .sm\:hover\:animate-none:hover {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .sm\:hover\:animate-spin:hover {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .sm\:hover\:animate-ping:hover {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .sm\:hover\:animate-pulse:hover {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .sm\:hover\:animate-bounce:hover {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
+  .sm\:hover\:animate-gradient-xy:hover {
+    -webkit-animation: gradient-xy 10s ease infinite;
+            animation: gradient-xy 10s ease infinite;
+  }
+
+  .sm\:hover\:animate-shape-perfil:hover {
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
+  }
+
+  .sm\:hover\:animate-shape-background-perfil:hover {
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .sm\:hover\:animate-wiggle:hover {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
   }
 
   .sm\:cursor-auto {
@@ -45454,6 +47146,54 @@ video {
   }
 
   .sm\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+
+  .sm\:hover\:overflow-auto:hover {
+    overflow: auto;
+  }
+
+  .sm\:hover\:overflow-hidden:hover {
+    overflow: hidden;
+  }
+
+  .sm\:hover\:overflow-visible:hover {
+    overflow: visible;
+  }
+
+  .sm\:hover\:overflow-scroll:hover {
+    overflow: scroll;
+  }
+
+  .sm\:hover\:overflow-x-auto:hover {
+    overflow-x: auto;
+  }
+
+  .sm\:hover\:overflow-y-auto:hover {
+    overflow-y: auto;
+  }
+
+  .sm\:hover\:overflow-x-hidden:hover {
+    overflow-x: hidden;
+  }
+
+  .sm\:hover\:overflow-y-hidden:hover {
+    overflow-y: hidden;
+  }
+
+  .sm\:hover\:overflow-x-visible:hover {
+    overflow-x: visible;
+  }
+
+  .sm\:hover\:overflow-y-visible:hover {
+    overflow-y: visible;
+  }
+
+  .sm\:hover\:overflow-x-scroll:hover {
+    overflow-x: scroll;
+  }
+
+  .sm\:hover\:overflow-y-scroll:hover {
     overflow-y: scroll;
   }
 
@@ -72908,6 +74648,678 @@ video {
     --tw-translate-y: -100%;
   }
 
+  .group:hover .md\:group-hover\:translate-x-0 {
+    --tw-translate-x: 0px;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-1 {
+    --tw-translate-x: 0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-2 {
+    --tw-translate-x: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-3 {
+    --tw-translate-x: 0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-4 {
+    --tw-translate-x: 1rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-5 {
+    --tw-translate-x: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-6 {
+    --tw-translate-x: 1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-7 {
+    --tw-translate-x: 1.75rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-8 {
+    --tw-translate-x: 2rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-9 {
+    --tw-translate-x: 2.25rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-10 {
+    --tw-translate-x: 2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-11 {
+    --tw-translate-x: 2.75rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-12 {
+    --tw-translate-x: 3rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-14 {
+    --tw-translate-x: 3.5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-16 {
+    --tw-translate-x: 4rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-20 {
+    --tw-translate-x: 5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-24 {
+    --tw-translate-x: 6rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-28 {
+    --tw-translate-x: 7rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-32 {
+    --tw-translate-x: 8rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-36 {
+    --tw-translate-x: 9rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-40 {
+    --tw-translate-x: 10rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-44 {
+    --tw-translate-x: 11rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-48 {
+    --tw-translate-x: 12rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-52 {
+    --tw-translate-x: 13rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-56 {
+    --tw-translate-x: 14rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-60 {
+    --tw-translate-x: 15rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-64 {
+    --tw-translate-x: 16rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-72 {
+    --tw-translate-x: 18rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-80 {
+    --tw-translate-x: 20rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-96 {
+    --tw-translate-x: 24rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-px {
+    --tw-translate-x: 1px;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-0\.5 {
+    --tw-translate-x: 0.125rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-1\.5 {
+    --tw-translate-x: 0.375rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-2\.5 {
+    --tw-translate-x: 0.625rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-3\.5 {
+    --tw-translate-x: 0.875rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-0 {
+    --tw-translate-x: 0px;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-1 {
+    --tw-translate-x: -0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-2 {
+    --tw-translate-x: -0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-3 {
+    --tw-translate-x: -0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-4 {
+    --tw-translate-x: -1rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-5 {
+    --tw-translate-x: -1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-6 {
+    --tw-translate-x: -1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-7 {
+    --tw-translate-x: -1.75rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-8 {
+    --tw-translate-x: -2rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-9 {
+    --tw-translate-x: -2.25rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-10 {
+    --tw-translate-x: -2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-11 {
+    --tw-translate-x: -2.75rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-12 {
+    --tw-translate-x: -3rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-14 {
+    --tw-translate-x: -3.5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-16 {
+    --tw-translate-x: -4rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-20 {
+    --tw-translate-x: -5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-24 {
+    --tw-translate-x: -6rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-28 {
+    --tw-translate-x: -7rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-32 {
+    --tw-translate-x: -8rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-36 {
+    --tw-translate-x: -9rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-40 {
+    --tw-translate-x: -10rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-44 {
+    --tw-translate-x: -11rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-48 {
+    --tw-translate-x: -12rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-52 {
+    --tw-translate-x: -13rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-56 {
+    --tw-translate-x: -14rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-60 {
+    --tw-translate-x: -15rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-64 {
+    --tw-translate-x: -16rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-72 {
+    --tw-translate-x: -18rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-80 {
+    --tw-translate-x: -20rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-96 {
+    --tw-translate-x: -24rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-px {
+    --tw-translate-x: -1px;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-0\.5 {
+    --tw-translate-x: -0.125rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-1\.5 {
+    --tw-translate-x: -0.375rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-2\.5 {
+    --tw-translate-x: -0.625rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-3\.5 {
+    --tw-translate-x: -0.875rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-1\/2 {
+    --tw-translate-x: 50%;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-1\/3 {
+    --tw-translate-x: 33.333333%;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-2\/3 {
+    --tw-translate-x: 66.666667%;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-1\/4 {
+    --tw-translate-x: 25%;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-2\/4 {
+    --tw-translate-x: 50%;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-3\/4 {
+    --tw-translate-x: 75%;
+  }
+
+  .group:hover .md\:group-hover\:translate-x-full {
+    --tw-translate-x: 100%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-1\/2 {
+    --tw-translate-x: -50%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-1\/3 {
+    --tw-translate-x: -33.333333%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-2\/3 {
+    --tw-translate-x: -66.666667%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-1\/4 {
+    --tw-translate-x: -25%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-2\/4 {
+    --tw-translate-x: -50%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-3\/4 {
+    --tw-translate-x: -75%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-full {
+    --tw-translate-x: -100%;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-0 {
+    --tw-translate-y: 0px;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-1 {
+    --tw-translate-y: 0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-2 {
+    --tw-translate-y: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-3 {
+    --tw-translate-y: 0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-4 {
+    --tw-translate-y: 1rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-5 {
+    --tw-translate-y: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-6 {
+    --tw-translate-y: 1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-7 {
+    --tw-translate-y: 1.75rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-8 {
+    --tw-translate-y: 2rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-9 {
+    --tw-translate-y: 2.25rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-10 {
+    --tw-translate-y: 2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-11 {
+    --tw-translate-y: 2.75rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-12 {
+    --tw-translate-y: 3rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-14 {
+    --tw-translate-y: 3.5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-16 {
+    --tw-translate-y: 4rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-20 {
+    --tw-translate-y: 5rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-24 {
+    --tw-translate-y: 6rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-28 {
+    --tw-translate-y: 7rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-32 {
+    --tw-translate-y: 8rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-36 {
+    --tw-translate-y: 9rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-40 {
+    --tw-translate-y: 10rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-44 {
+    --tw-translate-y: 11rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-48 {
+    --tw-translate-y: 12rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-52 {
+    --tw-translate-y: 13rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-56 {
+    --tw-translate-y: 14rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-60 {
+    --tw-translate-y: 15rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-64 {
+    --tw-translate-y: 16rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-72 {
+    --tw-translate-y: 18rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-80 {
+    --tw-translate-y: 20rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-96 {
+    --tw-translate-y: 24rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-px {
+    --tw-translate-y: 1px;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-0\.5 {
+    --tw-translate-y: 0.125rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-1\.5 {
+    --tw-translate-y: 0.375rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-2\.5 {
+    --tw-translate-y: 0.625rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-3\.5 {
+    --tw-translate-y: 0.875rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-0 {
+    --tw-translate-y: 0px;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-1 {
+    --tw-translate-y: -0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-2 {
+    --tw-translate-y: -0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-3 {
+    --tw-translate-y: -0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-4 {
+    --tw-translate-y: -1rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-5 {
+    --tw-translate-y: -1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-6 {
+    --tw-translate-y: -1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-7 {
+    --tw-translate-y: -1.75rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-8 {
+    --tw-translate-y: -2rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-9 {
+    --tw-translate-y: -2.25rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-10 {
+    --tw-translate-y: -2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-11 {
+    --tw-translate-y: -2.75rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-12 {
+    --tw-translate-y: -3rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-14 {
+    --tw-translate-y: -3.5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-16 {
+    --tw-translate-y: -4rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-20 {
+    --tw-translate-y: -5rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-24 {
+    --tw-translate-y: -6rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-28 {
+    --tw-translate-y: -7rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-32 {
+    --tw-translate-y: -8rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-36 {
+    --tw-translate-y: -9rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-40 {
+    --tw-translate-y: -10rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-44 {
+    --tw-translate-y: -11rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-48 {
+    --tw-translate-y: -12rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-52 {
+    --tw-translate-y: -13rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-56 {
+    --tw-translate-y: -14rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-60 {
+    --tw-translate-y: -15rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-64 {
+    --tw-translate-y: -16rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-72 {
+    --tw-translate-y: -18rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-80 {
+    --tw-translate-y: -20rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-96 {
+    --tw-translate-y: -24rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-px {
+    --tw-translate-y: -1px;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-0\.5 {
+    --tw-translate-y: -0.125rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-1\.5 {
+    --tw-translate-y: -0.375rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-2\.5 {
+    --tw-translate-y: -0.625rem;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-3\.5 {
+    --tw-translate-y: -0.875rem;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-1\/2 {
+    --tw-translate-y: 50%;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-1\/3 {
+    --tw-translate-y: 33.333333%;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-2\/3 {
+    --tw-translate-y: 66.666667%;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-1\/4 {
+    --tw-translate-y: 25%;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-2\/4 {
+    --tw-translate-y: 50%;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-3\/4 {
+    --tw-translate-y: 75%;
+  }
+
+  .group:hover .md\:group-hover\:translate-y-full {
+    --tw-translate-y: 100%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-1\/2 {
+    --tw-translate-y: -50%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-1\/3 {
+    --tw-translate-y: -33.333333%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-2\/3 {
+    --tw-translate-y: -66.666667%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-1\/4 {
+    --tw-translate-y: -25%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-2\/4 {
+    --tw-translate-y: -50%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-3\/4 {
+    --tw-translate-y: -75%;
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-full {
+    --tw-translate-y: -100%;
+  }
+
   .md\:hover\:translate-x-0:hover {
     --tw-translate-x: 0px;
   }
@@ -75240,19 +77652,74 @@ video {
     --tw-scale-y: 1.5;
   }
 
+  .md\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .md\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .md\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .md\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .md\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
   .md\:animate-gradient-xy {
     -webkit-animation: gradient-xy 10s ease infinite;
             animation: gradient-xy 10s ease infinite;
   }
 
   .md\:animate-shape-perfil {
-    -webkit-animation: shape-perfil 25s ease infinite;
-            animation: shape-perfil 25s ease infinite;
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
   }
 
   .md\:animate-shape-background-perfil {
-    -webkit-animation: shape-background-perfil 25s ease infinite;
-            animation: shape-background-perfil 25s ease infinite;
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .md\:animate-wiggle {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
+  }
+
+  .group:hover .md\:group-hover\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .group:hover .md\:group-hover\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .group:hover .md\:group-hover\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .group:hover .md\:group-hover\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .group:hover .md\:group-hover\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
   }
 
   .group:hover .md\:group-hover\:animate-gradient-xy {
@@ -75261,13 +77728,63 @@ video {
   }
 
   .group:hover .md\:group-hover\:animate-shape-perfil {
-    -webkit-animation: shape-perfil 25s ease infinite;
-            animation: shape-perfil 25s ease infinite;
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
   }
 
   .group:hover .md\:group-hover\:animate-shape-background-perfil {
-    -webkit-animation: shape-background-perfil 25s ease infinite;
-            animation: shape-background-perfil 25s ease infinite;
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .group:hover .md\:group-hover\:animate-wiggle {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
+  }
+
+  .md\:hover\:animate-none:hover {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .md\:hover\:animate-spin:hover {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .md\:hover\:animate-ping:hover {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .md\:hover\:animate-pulse:hover {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .md\:hover\:animate-bounce:hover {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
+  .md\:hover\:animate-gradient-xy:hover {
+    -webkit-animation: gradient-xy 10s ease infinite;
+            animation: gradient-xy 10s ease infinite;
+  }
+
+  .md\:hover\:animate-shape-perfil:hover {
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
+  }
+
+  .md\:hover\:animate-shape-background-perfil:hover {
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .md\:hover\:animate-wiggle:hover {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
   }
 
   .md\:cursor-auto {
@@ -77652,6 +80169,54 @@ video {
   }
 
   .md\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+
+  .md\:hover\:overflow-auto:hover {
+    overflow: auto;
+  }
+
+  .md\:hover\:overflow-hidden:hover {
+    overflow: hidden;
+  }
+
+  .md\:hover\:overflow-visible:hover {
+    overflow: visible;
+  }
+
+  .md\:hover\:overflow-scroll:hover {
+    overflow: scroll;
+  }
+
+  .md\:hover\:overflow-x-auto:hover {
+    overflow-x: auto;
+  }
+
+  .md\:hover\:overflow-y-auto:hover {
+    overflow-y: auto;
+  }
+
+  .md\:hover\:overflow-x-hidden:hover {
+    overflow-x: hidden;
+  }
+
+  .md\:hover\:overflow-y-hidden:hover {
+    overflow-y: hidden;
+  }
+
+  .md\:hover\:overflow-x-visible:hover {
+    overflow-x: visible;
+  }
+
+  .md\:hover\:overflow-y-visible:hover {
+    overflow-y: visible;
+  }
+
+  .md\:hover\:overflow-x-scroll:hover {
+    overflow-x: scroll;
+  }
+
+  .md\:hover\:overflow-y-scroll:hover {
     overflow-y: scroll;
   }
 
@@ -105106,6 +107671,678 @@ video {
     --tw-translate-y: -100%;
   }
 
+  .group:hover .lg\:group-hover\:translate-x-0 {
+    --tw-translate-x: 0px;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-1 {
+    --tw-translate-x: 0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-2 {
+    --tw-translate-x: 0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-3 {
+    --tw-translate-x: 0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-4 {
+    --tw-translate-x: 1rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-5 {
+    --tw-translate-x: 1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-6 {
+    --tw-translate-x: 1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-7 {
+    --tw-translate-x: 1.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-8 {
+    --tw-translate-x: 2rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-9 {
+    --tw-translate-x: 2.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-10 {
+    --tw-translate-x: 2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-11 {
+    --tw-translate-x: 2.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-12 {
+    --tw-translate-x: 3rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-14 {
+    --tw-translate-x: 3.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-16 {
+    --tw-translate-x: 4rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-20 {
+    --tw-translate-x: 5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-24 {
+    --tw-translate-x: 6rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-28 {
+    --tw-translate-x: 7rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-32 {
+    --tw-translate-x: 8rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-36 {
+    --tw-translate-x: 9rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-40 {
+    --tw-translate-x: 10rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-44 {
+    --tw-translate-x: 11rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-48 {
+    --tw-translate-x: 12rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-52 {
+    --tw-translate-x: 13rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-56 {
+    --tw-translate-x: 14rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-60 {
+    --tw-translate-x: 15rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-64 {
+    --tw-translate-x: 16rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-72 {
+    --tw-translate-x: 18rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-80 {
+    --tw-translate-x: 20rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-96 {
+    --tw-translate-x: 24rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-px {
+    --tw-translate-x: 1px;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-0\.5 {
+    --tw-translate-x: 0.125rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-1\.5 {
+    --tw-translate-x: 0.375rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-2\.5 {
+    --tw-translate-x: 0.625rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-3\.5 {
+    --tw-translate-x: 0.875rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-0 {
+    --tw-translate-x: 0px;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-1 {
+    --tw-translate-x: -0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-2 {
+    --tw-translate-x: -0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-3 {
+    --tw-translate-x: -0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-4 {
+    --tw-translate-x: -1rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-5 {
+    --tw-translate-x: -1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-6 {
+    --tw-translate-x: -1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-7 {
+    --tw-translate-x: -1.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-8 {
+    --tw-translate-x: -2rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-9 {
+    --tw-translate-x: -2.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-10 {
+    --tw-translate-x: -2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-11 {
+    --tw-translate-x: -2.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-12 {
+    --tw-translate-x: -3rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-14 {
+    --tw-translate-x: -3.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-16 {
+    --tw-translate-x: -4rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-20 {
+    --tw-translate-x: -5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-24 {
+    --tw-translate-x: -6rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-28 {
+    --tw-translate-x: -7rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-32 {
+    --tw-translate-x: -8rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-36 {
+    --tw-translate-x: -9rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-40 {
+    --tw-translate-x: -10rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-44 {
+    --tw-translate-x: -11rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-48 {
+    --tw-translate-x: -12rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-52 {
+    --tw-translate-x: -13rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-56 {
+    --tw-translate-x: -14rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-60 {
+    --tw-translate-x: -15rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-64 {
+    --tw-translate-x: -16rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-72 {
+    --tw-translate-x: -18rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-80 {
+    --tw-translate-x: -20rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-96 {
+    --tw-translate-x: -24rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-px {
+    --tw-translate-x: -1px;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-0\.5 {
+    --tw-translate-x: -0.125rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-1\.5 {
+    --tw-translate-x: -0.375rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-2\.5 {
+    --tw-translate-x: -0.625rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-3\.5 {
+    --tw-translate-x: -0.875rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-1\/2 {
+    --tw-translate-x: 50%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-1\/3 {
+    --tw-translate-x: 33.333333%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-2\/3 {
+    --tw-translate-x: 66.666667%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-1\/4 {
+    --tw-translate-x: 25%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-2\/4 {
+    --tw-translate-x: 50%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-3\/4 {
+    --tw-translate-x: 75%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-full {
+    --tw-translate-x: 100%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-1\/2 {
+    --tw-translate-x: -50%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-1\/3 {
+    --tw-translate-x: -33.333333%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-2\/3 {
+    --tw-translate-x: -66.666667%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-1\/4 {
+    --tw-translate-x: -25%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-2\/4 {
+    --tw-translate-x: -50%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-3\/4 {
+    --tw-translate-x: -75%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-full {
+    --tw-translate-x: -100%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-0 {
+    --tw-translate-y: 0px;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-1 {
+    --tw-translate-y: 0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-2 {
+    --tw-translate-y: 0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-3 {
+    --tw-translate-y: 0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-4 {
+    --tw-translate-y: 1rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-5 {
+    --tw-translate-y: 1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-6 {
+    --tw-translate-y: 1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-7 {
+    --tw-translate-y: 1.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-8 {
+    --tw-translate-y: 2rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-9 {
+    --tw-translate-y: 2.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-10 {
+    --tw-translate-y: 2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-11 {
+    --tw-translate-y: 2.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-12 {
+    --tw-translate-y: 3rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-14 {
+    --tw-translate-y: 3.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-16 {
+    --tw-translate-y: 4rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-20 {
+    --tw-translate-y: 5rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-24 {
+    --tw-translate-y: 6rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-28 {
+    --tw-translate-y: 7rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-32 {
+    --tw-translate-y: 8rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-36 {
+    --tw-translate-y: 9rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-40 {
+    --tw-translate-y: 10rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-44 {
+    --tw-translate-y: 11rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-48 {
+    --tw-translate-y: 12rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-52 {
+    --tw-translate-y: 13rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-56 {
+    --tw-translate-y: 14rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-60 {
+    --tw-translate-y: 15rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-64 {
+    --tw-translate-y: 16rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-72 {
+    --tw-translate-y: 18rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-80 {
+    --tw-translate-y: 20rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-96 {
+    --tw-translate-y: 24rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-px {
+    --tw-translate-y: 1px;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-0\.5 {
+    --tw-translate-y: 0.125rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-1\.5 {
+    --tw-translate-y: 0.375rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-2\.5 {
+    --tw-translate-y: 0.625rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-3\.5 {
+    --tw-translate-y: 0.875rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-0 {
+    --tw-translate-y: 0px;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-1 {
+    --tw-translate-y: -0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-2 {
+    --tw-translate-y: -0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-3 {
+    --tw-translate-y: -0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-4 {
+    --tw-translate-y: -1rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-5 {
+    --tw-translate-y: -1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-6 {
+    --tw-translate-y: -1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-7 {
+    --tw-translate-y: -1.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-8 {
+    --tw-translate-y: -2rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-9 {
+    --tw-translate-y: -2.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-10 {
+    --tw-translate-y: -2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-11 {
+    --tw-translate-y: -2.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-12 {
+    --tw-translate-y: -3rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-14 {
+    --tw-translate-y: -3.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-16 {
+    --tw-translate-y: -4rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-20 {
+    --tw-translate-y: -5rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-24 {
+    --tw-translate-y: -6rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-28 {
+    --tw-translate-y: -7rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-32 {
+    --tw-translate-y: -8rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-36 {
+    --tw-translate-y: -9rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-40 {
+    --tw-translate-y: -10rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-44 {
+    --tw-translate-y: -11rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-48 {
+    --tw-translate-y: -12rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-52 {
+    --tw-translate-y: -13rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-56 {
+    --tw-translate-y: -14rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-60 {
+    --tw-translate-y: -15rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-64 {
+    --tw-translate-y: -16rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-72 {
+    --tw-translate-y: -18rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-80 {
+    --tw-translate-y: -20rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-96 {
+    --tw-translate-y: -24rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-px {
+    --tw-translate-y: -1px;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-0\.5 {
+    --tw-translate-y: -0.125rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-1\.5 {
+    --tw-translate-y: -0.375rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-2\.5 {
+    --tw-translate-y: -0.625rem;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-3\.5 {
+    --tw-translate-y: -0.875rem;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-1\/2 {
+    --tw-translate-y: 50%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-1\/3 {
+    --tw-translate-y: 33.333333%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-2\/3 {
+    --tw-translate-y: 66.666667%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-1\/4 {
+    --tw-translate-y: 25%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-2\/4 {
+    --tw-translate-y: 50%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-3\/4 {
+    --tw-translate-y: 75%;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-full {
+    --tw-translate-y: 100%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-1\/2 {
+    --tw-translate-y: -50%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-1\/3 {
+    --tw-translate-y: -33.333333%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-2\/3 {
+    --tw-translate-y: -66.666667%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-1\/4 {
+    --tw-translate-y: -25%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-2\/4 {
+    --tw-translate-y: -50%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-3\/4 {
+    --tw-translate-y: -75%;
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-full {
+    --tw-translate-y: -100%;
+  }
+
   .lg\:hover\:translate-x-0:hover {
     --tw-translate-x: 0px;
   }
@@ -107438,19 +110675,74 @@ video {
     --tw-scale-y: 1.5;
   }
 
+  .lg\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .lg\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .lg\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .lg\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .lg\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
   .lg\:animate-gradient-xy {
     -webkit-animation: gradient-xy 10s ease infinite;
             animation: gradient-xy 10s ease infinite;
   }
 
   .lg\:animate-shape-perfil {
-    -webkit-animation: shape-perfil 25s ease infinite;
-            animation: shape-perfil 25s ease infinite;
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
   }
 
   .lg\:animate-shape-background-perfil {
-    -webkit-animation: shape-background-perfil 25s ease infinite;
-            animation: shape-background-perfil 25s ease infinite;
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .lg\:animate-wiggle {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
+  }
+
+  .group:hover .lg\:group-hover\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .group:hover .lg\:group-hover\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .group:hover .lg\:group-hover\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .group:hover .lg\:group-hover\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .group:hover .lg\:group-hover\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
   }
 
   .group:hover .lg\:group-hover\:animate-gradient-xy {
@@ -107459,13 +110751,63 @@ video {
   }
 
   .group:hover .lg\:group-hover\:animate-shape-perfil {
-    -webkit-animation: shape-perfil 25s ease infinite;
-            animation: shape-perfil 25s ease infinite;
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
   }
 
   .group:hover .lg\:group-hover\:animate-shape-background-perfil {
-    -webkit-animation: shape-background-perfil 25s ease infinite;
-            animation: shape-background-perfil 25s ease infinite;
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .group:hover .lg\:group-hover\:animate-wiggle {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
+  }
+
+  .lg\:hover\:animate-none:hover {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .lg\:hover\:animate-spin:hover {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .lg\:hover\:animate-ping:hover {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .lg\:hover\:animate-pulse:hover {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .lg\:hover\:animate-bounce:hover {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
+  .lg\:hover\:animate-gradient-xy:hover {
+    -webkit-animation: gradient-xy 10s ease infinite;
+            animation: gradient-xy 10s ease infinite;
+  }
+
+  .lg\:hover\:animate-shape-perfil:hover {
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
+  }
+
+  .lg\:hover\:animate-shape-background-perfil:hover {
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .lg\:hover\:animate-wiggle:hover {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
   }
 
   .lg\:cursor-auto {
@@ -109850,6 +113192,54 @@ video {
   }
 
   .lg\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+
+  .lg\:hover\:overflow-auto:hover {
+    overflow: auto;
+  }
+
+  .lg\:hover\:overflow-hidden:hover {
+    overflow: hidden;
+  }
+
+  .lg\:hover\:overflow-visible:hover {
+    overflow: visible;
+  }
+
+  .lg\:hover\:overflow-scroll:hover {
+    overflow: scroll;
+  }
+
+  .lg\:hover\:overflow-x-auto:hover {
+    overflow-x: auto;
+  }
+
+  .lg\:hover\:overflow-y-auto:hover {
+    overflow-y: auto;
+  }
+
+  .lg\:hover\:overflow-x-hidden:hover {
+    overflow-x: hidden;
+  }
+
+  .lg\:hover\:overflow-y-hidden:hover {
+    overflow-y: hidden;
+  }
+
+  .lg\:hover\:overflow-x-visible:hover {
+    overflow-x: visible;
+  }
+
+  .lg\:hover\:overflow-y-visible:hover {
+    overflow-y: visible;
+  }
+
+  .lg\:hover\:overflow-x-scroll:hover {
+    overflow-x: scroll;
+  }
+
+  .lg\:hover\:overflow-y-scroll:hover {
     overflow-y: scroll;
   }
 
@@ -137304,6 +140694,678 @@ video {
     --tw-translate-y: -100%;
   }
 
+  .group:hover .xl\:group-hover\:translate-x-0 {
+    --tw-translate-x: 0px;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-1 {
+    --tw-translate-x: 0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-2 {
+    --tw-translate-x: 0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-3 {
+    --tw-translate-x: 0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-4 {
+    --tw-translate-x: 1rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-5 {
+    --tw-translate-x: 1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-6 {
+    --tw-translate-x: 1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-7 {
+    --tw-translate-x: 1.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-8 {
+    --tw-translate-x: 2rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-9 {
+    --tw-translate-x: 2.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-10 {
+    --tw-translate-x: 2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-11 {
+    --tw-translate-x: 2.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-12 {
+    --tw-translate-x: 3rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-14 {
+    --tw-translate-x: 3.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-16 {
+    --tw-translate-x: 4rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-20 {
+    --tw-translate-x: 5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-24 {
+    --tw-translate-x: 6rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-28 {
+    --tw-translate-x: 7rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-32 {
+    --tw-translate-x: 8rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-36 {
+    --tw-translate-x: 9rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-40 {
+    --tw-translate-x: 10rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-44 {
+    --tw-translate-x: 11rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-48 {
+    --tw-translate-x: 12rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-52 {
+    --tw-translate-x: 13rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-56 {
+    --tw-translate-x: 14rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-60 {
+    --tw-translate-x: 15rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-64 {
+    --tw-translate-x: 16rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-72 {
+    --tw-translate-x: 18rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-80 {
+    --tw-translate-x: 20rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-96 {
+    --tw-translate-x: 24rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-px {
+    --tw-translate-x: 1px;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-0\.5 {
+    --tw-translate-x: 0.125rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-1\.5 {
+    --tw-translate-x: 0.375rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-2\.5 {
+    --tw-translate-x: 0.625rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-3\.5 {
+    --tw-translate-x: 0.875rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-0 {
+    --tw-translate-x: 0px;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-1 {
+    --tw-translate-x: -0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-2 {
+    --tw-translate-x: -0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-3 {
+    --tw-translate-x: -0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-4 {
+    --tw-translate-x: -1rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-5 {
+    --tw-translate-x: -1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-6 {
+    --tw-translate-x: -1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-7 {
+    --tw-translate-x: -1.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-8 {
+    --tw-translate-x: -2rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-9 {
+    --tw-translate-x: -2.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-10 {
+    --tw-translate-x: -2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-11 {
+    --tw-translate-x: -2.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-12 {
+    --tw-translate-x: -3rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-14 {
+    --tw-translate-x: -3.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-16 {
+    --tw-translate-x: -4rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-20 {
+    --tw-translate-x: -5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-24 {
+    --tw-translate-x: -6rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-28 {
+    --tw-translate-x: -7rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-32 {
+    --tw-translate-x: -8rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-36 {
+    --tw-translate-x: -9rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-40 {
+    --tw-translate-x: -10rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-44 {
+    --tw-translate-x: -11rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-48 {
+    --tw-translate-x: -12rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-52 {
+    --tw-translate-x: -13rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-56 {
+    --tw-translate-x: -14rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-60 {
+    --tw-translate-x: -15rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-64 {
+    --tw-translate-x: -16rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-72 {
+    --tw-translate-x: -18rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-80 {
+    --tw-translate-x: -20rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-96 {
+    --tw-translate-x: -24rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-px {
+    --tw-translate-x: -1px;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-0\.5 {
+    --tw-translate-x: -0.125rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-1\.5 {
+    --tw-translate-x: -0.375rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-2\.5 {
+    --tw-translate-x: -0.625rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-3\.5 {
+    --tw-translate-x: -0.875rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-1\/2 {
+    --tw-translate-x: 50%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-1\/3 {
+    --tw-translate-x: 33.333333%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-2\/3 {
+    --tw-translate-x: 66.666667%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-1\/4 {
+    --tw-translate-x: 25%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-2\/4 {
+    --tw-translate-x: 50%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-3\/4 {
+    --tw-translate-x: 75%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-full {
+    --tw-translate-x: 100%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-1\/2 {
+    --tw-translate-x: -50%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-1\/3 {
+    --tw-translate-x: -33.333333%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-2\/3 {
+    --tw-translate-x: -66.666667%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-1\/4 {
+    --tw-translate-x: -25%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-2\/4 {
+    --tw-translate-x: -50%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-3\/4 {
+    --tw-translate-x: -75%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-full {
+    --tw-translate-x: -100%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-0 {
+    --tw-translate-y: 0px;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-1 {
+    --tw-translate-y: 0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-2 {
+    --tw-translate-y: 0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-3 {
+    --tw-translate-y: 0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-4 {
+    --tw-translate-y: 1rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-5 {
+    --tw-translate-y: 1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-6 {
+    --tw-translate-y: 1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-7 {
+    --tw-translate-y: 1.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-8 {
+    --tw-translate-y: 2rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-9 {
+    --tw-translate-y: 2.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-10 {
+    --tw-translate-y: 2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-11 {
+    --tw-translate-y: 2.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-12 {
+    --tw-translate-y: 3rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-14 {
+    --tw-translate-y: 3.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-16 {
+    --tw-translate-y: 4rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-20 {
+    --tw-translate-y: 5rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-24 {
+    --tw-translate-y: 6rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-28 {
+    --tw-translate-y: 7rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-32 {
+    --tw-translate-y: 8rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-36 {
+    --tw-translate-y: 9rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-40 {
+    --tw-translate-y: 10rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-44 {
+    --tw-translate-y: 11rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-48 {
+    --tw-translate-y: 12rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-52 {
+    --tw-translate-y: 13rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-56 {
+    --tw-translate-y: 14rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-60 {
+    --tw-translate-y: 15rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-64 {
+    --tw-translate-y: 16rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-72 {
+    --tw-translate-y: 18rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-80 {
+    --tw-translate-y: 20rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-96 {
+    --tw-translate-y: 24rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-px {
+    --tw-translate-y: 1px;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-0\.5 {
+    --tw-translate-y: 0.125rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-1\.5 {
+    --tw-translate-y: 0.375rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-2\.5 {
+    --tw-translate-y: 0.625rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-3\.5 {
+    --tw-translate-y: 0.875rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-0 {
+    --tw-translate-y: 0px;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-1 {
+    --tw-translate-y: -0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-2 {
+    --tw-translate-y: -0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-3 {
+    --tw-translate-y: -0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-4 {
+    --tw-translate-y: -1rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-5 {
+    --tw-translate-y: -1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-6 {
+    --tw-translate-y: -1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-7 {
+    --tw-translate-y: -1.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-8 {
+    --tw-translate-y: -2rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-9 {
+    --tw-translate-y: -2.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-10 {
+    --tw-translate-y: -2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-11 {
+    --tw-translate-y: -2.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-12 {
+    --tw-translate-y: -3rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-14 {
+    --tw-translate-y: -3.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-16 {
+    --tw-translate-y: -4rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-20 {
+    --tw-translate-y: -5rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-24 {
+    --tw-translate-y: -6rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-28 {
+    --tw-translate-y: -7rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-32 {
+    --tw-translate-y: -8rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-36 {
+    --tw-translate-y: -9rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-40 {
+    --tw-translate-y: -10rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-44 {
+    --tw-translate-y: -11rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-48 {
+    --tw-translate-y: -12rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-52 {
+    --tw-translate-y: -13rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-56 {
+    --tw-translate-y: -14rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-60 {
+    --tw-translate-y: -15rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-64 {
+    --tw-translate-y: -16rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-72 {
+    --tw-translate-y: -18rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-80 {
+    --tw-translate-y: -20rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-96 {
+    --tw-translate-y: -24rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-px {
+    --tw-translate-y: -1px;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-0\.5 {
+    --tw-translate-y: -0.125rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-1\.5 {
+    --tw-translate-y: -0.375rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-2\.5 {
+    --tw-translate-y: -0.625rem;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-3\.5 {
+    --tw-translate-y: -0.875rem;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-1\/2 {
+    --tw-translate-y: 50%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-1\/3 {
+    --tw-translate-y: 33.333333%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-2\/3 {
+    --tw-translate-y: 66.666667%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-1\/4 {
+    --tw-translate-y: 25%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-2\/4 {
+    --tw-translate-y: 50%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-3\/4 {
+    --tw-translate-y: 75%;
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-full {
+    --tw-translate-y: 100%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-1\/2 {
+    --tw-translate-y: -50%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-1\/3 {
+    --tw-translate-y: -33.333333%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-2\/3 {
+    --tw-translate-y: -66.666667%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-1\/4 {
+    --tw-translate-y: -25%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-2\/4 {
+    --tw-translate-y: -50%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-3\/4 {
+    --tw-translate-y: -75%;
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-full {
+    --tw-translate-y: -100%;
+  }
+
   .xl\:hover\:translate-x-0:hover {
     --tw-translate-x: 0px;
   }
@@ -139636,19 +143698,74 @@ video {
     --tw-scale-y: 1.5;
   }
 
+  .xl\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .xl\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .xl\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .xl\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .xl\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
   .xl\:animate-gradient-xy {
     -webkit-animation: gradient-xy 10s ease infinite;
             animation: gradient-xy 10s ease infinite;
   }
 
   .xl\:animate-shape-perfil {
-    -webkit-animation: shape-perfil 25s ease infinite;
-            animation: shape-perfil 25s ease infinite;
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
   }
 
   .xl\:animate-shape-background-perfil {
-    -webkit-animation: shape-background-perfil 25s ease infinite;
-            animation: shape-background-perfil 25s ease infinite;
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .xl\:animate-wiggle {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
+  }
+
+  .group:hover .xl\:group-hover\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .group:hover .xl\:group-hover\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .group:hover .xl\:group-hover\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .group:hover .xl\:group-hover\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .group:hover .xl\:group-hover\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
   }
 
   .group:hover .xl\:group-hover\:animate-gradient-xy {
@@ -139657,13 +143774,63 @@ video {
   }
 
   .group:hover .xl\:group-hover\:animate-shape-perfil {
-    -webkit-animation: shape-perfil 25s ease infinite;
-            animation: shape-perfil 25s ease infinite;
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
   }
 
   .group:hover .xl\:group-hover\:animate-shape-background-perfil {
-    -webkit-animation: shape-background-perfil 25s ease infinite;
-            animation: shape-background-perfil 25s ease infinite;
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .group:hover .xl\:group-hover\:animate-wiggle {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
+  }
+
+  .xl\:hover\:animate-none:hover {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .xl\:hover\:animate-spin:hover {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .xl\:hover\:animate-ping:hover {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .xl\:hover\:animate-pulse:hover {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .xl\:hover\:animate-bounce:hover {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
+  .xl\:hover\:animate-gradient-xy:hover {
+    -webkit-animation: gradient-xy 10s ease infinite;
+            animation: gradient-xy 10s ease infinite;
+  }
+
+  .xl\:hover\:animate-shape-perfil:hover {
+    -webkit-animation: shape-perfil 25s ease-in-out alternate infinite;
+            animation: shape-perfil 25s ease-in-out alternate infinite;
+  }
+
+  .xl\:hover\:animate-shape-background-perfil:hover {
+    -webkit-animation: shape-background-perfil 20s ease-in-out alternate infinite;
+            animation: shape-background-perfil 20s ease-in-out alternate infinite;
+  }
+
+  .xl\:hover\:animate-wiggle:hover {
+    -webkit-animation: wiggle 1s ease-in-out infinite;
+            animation: wiggle 1s ease-in-out infinite;
   }
 
   .xl\:cursor-auto {
@@ -142048,6 +146215,54 @@ video {
   }
 
   .xl\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+
+  .xl\:hover\:overflow-auto:hover {
+    overflow: auto;
+  }
+
+  .xl\:hover\:overflow-hidden:hover {
+    overflow: hidden;
+  }
+
+  .xl\:hover\:overflow-visible:hover {
+    overflow: visible;
+  }
+
+  .xl\:hover\:overflow-scroll:hover {
+    overflow: scroll;
+  }
+
+  .xl\:hover\:overflow-x-auto:hover {
+    overflow-x: auto;
+  }
+
+  .xl\:hover\:overflow-y-auto:hover {
+    overflow-y: auto;
+  }
+
+  .xl\:hover\:overflow-x-hidden:hover {
+    overflow-x: hidden;
+  }
+
+  .xl\:hover\:overflow-y-hidden:hover {
+    overflow-y: hidden;
+  }
+
+  .xl\:hover\:overflow-x-visible:hover {
+    overflow-x: visible;
+  }
+
+  .xl\:hover\:overflow-y-visible:hover {
+    overflow-y: visible;
+  }
+
+  .xl\:hover\:overflow-x-scroll:hover {
+    overflow-x: scroll;
+  }
+
+  .xl\:hover\:overflow-y-scroll:hover {
     overflow-y: scroll;
   }
 

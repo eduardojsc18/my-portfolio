@@ -16,4 +16,8 @@
         display: none !important;
     }
 
+    [x-cloak="hidden"] {
+        display: none !important;
+    }
+
 }
