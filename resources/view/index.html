@@ -27,9 +27,200 @@
     <meta name="twitter:description" content="Olá visitante! Primeiramente... seja muito bem vindo ao meu portifólio. Aqui conto um pouco sobre minha vivencia na area de desenvolvimento. Se sinta em casa! 😁">
     <meta name="twitter:image" content="https://repository-images.githubusercontent.com/418732910/a2ca7c30-ced2-46c2-ba50-385b5adf4248">
 
-
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="flex flex-col min-h-screen font-roboto bg-gradient-to-tl from-gray-300 to-gray-100 animate-gradient-xy"
+    x-data="{fixeMenu: false}"
+    >
 
+    <header class="z-50"
+        x-data="{menuDesktop: false, contact: false}"
+        @scroll.window="fixeMenu = window.pageYOffset > 300 "
+        :class="{'fixed w-full': fixeMenu}"
+        >
+
+        <div class="container flex justify-end items-center ">
+
+            <div class="px-3 py-2 my-10 animate-ease-in-out animate-ease-in-out block-important"
+                 :class="{'bg-gray-50 shadow-md hover:shadow-lg rounded-xl bg-opacity-50 backdrop-filter backdrop-blur-sm w-1/4': fixeMenu}"
+                 x-show="fixeMenu"
+                 x-transition:enter="transition-all ease-in-out duration-500 "
+                 x-transition:enter-start="opacity-0 transform -translate-y-full"
+                 x-transition:enter-end="opacity-100 transform translate-y-0"
+                 x-transition:leave="transition ease-in-out duration-200"
+                 x-transition:leave-start="opacity-100 transform translate-y-0"
+                 x-transition:leave-end="opacity-0 transform -translate-y-full"
+                >
+
+                <div class="flex items-center justify-end relative "
+                     :class="{'gap-5 ': !fixeMenu, 'gap-2': fixeMenu}"
+                    >
+
+                    <div class="relative">
+
+                        <input class="hidden lg:block py-2 pl-3 pr-10 bg-gray-200 border border-gray-300 rounded-md text-sm outline-none focus:bg-gray-50 focus:border-gray-500 focus:shadow-md animate-ease-in-out"
+                               :class="{'w-72 ': !fixeMenu, 'w-full': fixeMenu}"
+                               type="search"
+                               name=""
+                               id="search"
+                               placeholder="Pesquise aqui aqui."
+                        >
+
+                        <label for="search" class="lg:absolute top-2 right-2 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                            </svg>
+                        </label>
+
+                    </div>
+
+                    <ul class="flex items-center"
+                        :class="{'gap-3': !fixeMenu, 'gap-2': fixeMenu}"
+                        >
+                        <li @mouseenter="contact = true" @mouseleave="contact = false">
+                            <div class="z-10 w-9 h-9 relative cursor-pointer" >
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
+                                     x-show="!contact"
+                                >
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                                </svg>
+
+                                <div class="absolute top-2 left-2"
+                                     x-show="contact"
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5  animate-ease-in-out" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M2.94 6.412A2 2 0 002 8.108V16a2 2 0 002 2h12a2 2 0 002-2V8.108a2 2 0 00-.94-1.696l-6-3.75a2 2 0 00-2.12 0l-6 3.75zm2.615 2.423a1 1 0 10-1.11 1.664l5 3.333a1 1 0 001.11 0l5-3.333a1 1 0 00-1.11-1.664L10 11.798 5.555 8.835z" clip-rule="evenodd" />
+                                    </svg>
+
+                                    <div class="absolute bottom-0 -left-12 -mb-14 py-5">
+                                        <div class=" bg-white bg-opacity-50 backdrop-filter backdrop-blur px-3 py-1 rounded-lg"
+                                             x-show="contact"
+                                             x-transition:enter="transition-all ease-in-out duration-200"
+                                             x-transition:enter-start="opacity-0 transform -translate-y-1/2"
+                                             x-transition:enter-end="opacity-100 transform translate-y-0"
+                                        >
+                                            <p class="whitespace-nowrap text-xs">
+                                                Entrar em contato
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <button class="rounded-md bg-gray-100 w-9 h-9 relative"
+                                    @click="menuDesktop = !menuDesktop"
+                            >
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
+                                     x-show="!menuDesktop"
+                                     x-transition:enter="transition-all ease-in-out duration-200"
+                                     x-transition:enter-start="opacity-0 transform scale-0"
+                                     x-transition:enter-end="opacity-100 transform scale-100"
+                                     x-transition:leave="transition ease-in-out duration-200"
+                                     x-transition:leave-start="opacity-100 transform scale-100"
+                                     x-transition:leave-end="opacity-0 transform scale-0"
+                                >
+                                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                </svg>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
+                                     x-show="menuDesktop"
+                                     x-transition:enter="transition-all ease-in-out duration-200"
+                                     x-transition:enter-start="opacity-0 transform scale-0"
+                                     x-transition:enter-end="opacity-100 transform scale-100"
+                                     x-transition:leave="transition ease-in-out duration-200"
+                                     x-transition:leave-start="opacity-100 transform scale-100"
+                                     x-transition:leave-end="opacity-0 transform scale-0"
+                                >
+                                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+
+                            </button>
+
+                            <div class="absolute top-14 right-0 ">
+                                <div class="bg-gray-50 bg-opacity-50 rounded-lg backdrop-filter backdrop-blur w-300px h-32"
+                                     x-show="menuDesktop"
+                                     x-transition:enter="transition-all ease-in-out duration-200"
+                                     x-transition:enter-start="opacity-0 transform -translate-y-1/2"
+                                     x-transition:enter-end="opacity-100 transform translate-y-0"
+                                     x-transition:leave="transition ease-in-out duration-200"
+                                     x-transition:leave-start="opacity-100"
+                                     x-transition:leave-end="opacity-0"
+                                >
+                                    Ola
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            
+        </div>
+
+
+    </header>
+
+    <main class="flex flex-grow"
+        :class="{'mt-32': fixeMenu}"
+        >
+
+        <section class="container px-3">
+
+            <div class="flex flex-col lg:flex-row items-center gap-y-20 lg:gap-x-20">
+
+                <div class="w-2/3 lg:w-400px lg:h-400px relative">
+                    <div class="z-10 animate-shape-perfil overflow-hidden aspect-h-1 aspect-w-1">
+                        <img class="" src="../img/perfil/00100sPORTRAIT_00100_BURST20200711152721154_COVER-01%20(2).jpg" alt="">
+                    </div>
+                    <div class="absolute transform scale-110 top-0 lg:top-1/4 left-0 w-full h-full bg-gray-300 animate-shape-background-perfil"> </div>
+                </div>
+
+                <div class="flex flex-col justify-center gap-3 text-gray-600">
+                    <p class="">Olá, seja muito bem-vindo a minha pagina! Me chamo</p>
+                    <h1 class="text-5xl font-bold text-yellow-700">Eduardo José</h1>
+                    <p>Sou Desenvolvedor Web. Atualmente tenho conhecimento em</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="px-3">
+        <div class="container px-3 py-5 text-gray-800 space-y-3 relative group">
+
+            <div class="flex items-center justify-center gap-3">
+                <a href="#">
+                    <svg class="w-5 h-5 fill-current transform hover:scale-150 hover:text-social-linkedin animate-ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="#">
+                    <svg class="w-5 h-5 fill-current transform hover:scale-150 hover:text-social-twitter animate-ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/></svg>
+                </a>
+                <a href="#">
+                    <svg class="w-5 h-5 fill-current transform hover:scale-150 hover:text-social-github animate-ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
+                </a>
+            </div>
+
+            <div class="text-center flex items-center justify-center gap-2">
+                Desenvolvido com muito amor <div class="group-hover:text-red-500 transform group-hover:scale-110 animate-ease-in-out">❤</div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script defer src="https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </body>
 </html>

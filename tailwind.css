@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    .animate-ease-in-out {
+        @apply transition-all duration-300 ease-in-out
+    }
+
+    .block-important {
+        display: block !important;
+    }
+
+    .hidden-important {
+        display: none !important;
+    }
+
+}
