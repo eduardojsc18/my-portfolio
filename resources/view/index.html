@@ -33,7 +33,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body class="flex flex-col min-h-screen font-roboto bg-gradient-to-tl from-gray-300 to-gray-100 animate-gradient-xy"
+<body class="flex flex-col min-h-screen font-roboto bg-gray-100"
     x-data="{fixeMenu: false}"
     >
 
@@ -119,7 +119,7 @@
                         </li>
                         <li>
 
-                            <button class="rounded-md bg-gray-100 w-9 h-9 relative"
+                            <button class="rounded-md bg-gray-100 w-9 h-9 relative border"
                                 @click="menuDesktop = !menuDesktop"
                                 >
 
@@ -150,8 +150,8 @@
 
                             </button>
 
-                            <div class="absolute top-12 lg:top-14 right-0">
-                                <div class="bg-black bg-opacity-50 rounded-lg backdrop-filter backdrop-blur w-300px h-32"
+                            <div class="absolute top-12 lg:top-14 -right-3 lg:right-0">
+                                <div class="bg-black bg-opacity-50 rounded-lg backdrop-filter backdrop-blur w-300px h-32 flex items-center justify-center gap-3"
                                      x-show="menuDesktop"
                                      x-transition:enter="transition-all ease-in-out duration-200"
                                      x-transition:enter-start="opacity-0 transform -translate-y-1/2"
@@ -162,7 +162,8 @@
                                      x-cloak="hidden"
                                      @click.away="menuDesktop = false"
                                 >
-                                    Ola
+                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 19h-1v-2.2c-1.853 4.237-6.083 7.2-11 7.2-6.623 0-12-5.377-12-12h1c0 6.071 4.929 11 11 11 4.66 0 8.647-2.904 10.249-7h-2.249v-1h4v4zm-11.036 0h-1.886c-.34-.957-.437-1.571-1.177-1.878h-.001c-.743-.308-1.251.061-2.162.494l-1.333-1.333c.427-.899.804-1.415.494-2.163-.308-.74-.926-.839-1.878-1.177v-1.886c.954-.339 1.57-.437 1.878-1.178.308-.743-.06-1.248-.494-2.162l1.333-1.333c.918.436 1.421.801 2.162.494l.001-.001c.74-.307.838-.924 1.177-1.877h1.886c.34.958.437 1.57 1.177 1.877l.001.001c.743.308 1.252-.062 2.162-.494l1.333 1.333c-.435.917-.801 1.421-.494 2.161v.001c.307.739.915.835 1.878 1.178v1.886c-.953.338-1.571.437-1.878 1.178-.308.743.06 1.249.494 2.162l-1.333 1.333c-.92-.438-1.42-.802-2.157-.496-.746.31-.844.926-1.183 1.88zm-.943-4.667c-1.289 0-2.333-1.044-2.333-2.333 0-1.289 1.044-2.334 2.333-2.334 1.289 0 2.333 1.045 2.333 2.334 0 1.289-1.044 2.333-2.333 2.333zm-8.021-5.333h-4v-4h1v2.2c1.853-4.237 6.083-7.2 11-7.2 6.623 0 12 5.377 12 12h-1c0-6.071-4.929-11-11-11-4.66 0-8.647 2.904-10.249 7h2.249v1z"/></svg>
+                                    Pagina em construção
                                 </div>
                             </div>
 
@@ -178,14 +179,15 @@
 
     </header>
 
-    <main class="flex flex-col flex-grow"
+    <main class="flex flex-col flex-grow "
         :class="{'mt-20 md:mt-22': fixeMenu}"
         >
-        <div class="z-10 pt-5 pb-16 lg:pt-16 lg:pb-24 shadow-lg">
+
+        <div class="z-10 pt-5 pb-16">
 
             <section class="container px-3 xl:px-0">
 
-                <div class="px-3 py-8 lg:py-16 hover:shadow-lg hover:bg-white transform hover:-translate-y-1 rounded-3xl bg-opacity-50 backdrop-filter backdrop-blur-3xl animate-ease-in-out">
+                <div class="px-3 py-8 lg:py-16 bg-gray-100 hover:shadow-lg hover:bg-white transform hover:-translate-y-1 rounded-3xl bg-opacity-50 backdrop-filter backdrop-blur-3xl animate-ease-in-out">
                     <div class="grid md:grid-cols-2 gap-y-10 gap-x-5 gap-y-5">
 
                         <div class="mx-auto w-5/6 lg:w-400px relative">
@@ -194,7 +196,7 @@
                                 <img class="" src="../img/perfil/00100sPORTRAIT_00100_BURST20200711152721154_COVER-01%20(2).jpg" alt="">
                             </div>
 
-                            <div class="absolute transform scale-110 top-0 left-0 w-full h-full bg-gray-300 animate-shape-background-perfil"> </div>
+                            <div class="absolute transform scale-110 top-0 left-0 w-full h-full bg-gradient-to-br from-gray-100 to-gray-300 animate-gradient-xy animate-shape-background-perfil"> </div>
 
                         </div>
 
@@ -285,9 +287,55 @@
             </section>
 
         </div>
-        <section class="z-0 bg-gray-50 h-screen"> </section>
-        <section class="h-screen"> </section>
-        <section class="h-screen"> </section>
+
+        <div class="bg-gray-50 shadow-inner py-20 overflow-hidden">
+            <section class="container"
+                 x-data="{showScroll: false}"
+                 x-intersect.full="showScroll = true"
+                >
+
+                <div class="lg:w-3/4 px-5 mx-auto flex flex-col lg:flex-row items-center">
+
+                    <div class="order-2 lg:w-3/4"
+                         x-show="showScroll"
+                         x-cloak="hidden"
+                         x-transition:enter="transition-all ease-in-out duration-500 "
+                         x-transition:enter-start="opacity-0 transform -translate-y-full"
+                         x-transition:enter-end="opacity-100 transform translate-y-0"
+                        >
+
+                        <h2 class="text-2xl text-center font-bold uppercase text-red-900 my-5 ">
+                            Minhas experiência
+                        </h2>
+
+                        <div class="text-gray-600">
+
+                            <div class="py-5 px-10 float-left">
+                                <svg class="w-full h-full" width="30" height="30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 19h-1v-2.2c-1.853 4.237-6.083 7.2-11 7.2-6.623 0-12-5.377-12-12h1c0 6.071 4.929 11 11 11 4.66 0 8.647-2.904 10.249-7h-2.249v-1h4v4zm-11.036 0h-1.886c-.34-.957-.437-1.571-1.177-1.878h-.001c-.743-.308-1.251.061-2.162.494l-1.333-1.333c.427-.899.804-1.415.494-2.163-.308-.74-.926-.839-1.878-1.177v-1.886c.954-.339 1.57-.437 1.878-1.178.308-.743-.06-1.248-.494-2.162l1.333-1.333c.918.436 1.421.801 2.162.494l.001-.001c.74-.307.838-.924 1.177-1.877h1.886c.34.958.437 1.57 1.177 1.877l.001.001c.743.308 1.252-.062 2.162-.494l1.333 1.333c-.435.917-.801 1.421-.494 2.161v.001c.307.739.915.835 1.878 1.178v1.886c-.953.338-1.571.437-1.878 1.178-.308.743.06 1.249.494 2.162l-1.333 1.333c-.92-.438-1.42-.802-2.157-.496-.746.31-.844.926-1.183 1.88zm-.943-4.667c-1.289 0-2.333-1.044-2.333-2.333 0-1.289 1.044-2.334 2.333-2.334 1.289 0 2.333 1.045 2.333 2.334 0 1.289-1.044 2.333-2.333 2.333zm-8.021-5.333h-4v-4h1v2.2c1.853-4.237 6.083-7.2 11-7.2 6.623 0 12 5.377 12 12h-1c0-6.071-4.929-11-11-11-4.66 0-8.647 2.904-10.249 7h2.249v1z"/></svg>
+                            </div>
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique mi id odio scelerisque euismod. Nulla facilisi. Etiam mollis ligula vel mauris interdum, at tempus velit rhoncus. Cras ut purus non mauris suscipit placerat. Pellentesque varius placerat ornare. Praesent vitae quam dignissim, accumsan felis maximus, lobortis nibh. Phasellus ac massa vitae metus egestas pharetra ut nec dui. Nam laoreet pulvinar lectus vel tincidunt. Etiam eleifend pulvinar nulla vitae iaculis. Ut nec massa porttitor, dapibus magna ultricies, tincidunt ante.
+
+                        </div>
+
+                    </div>
+
+                    <div class="order-1 lg:order-2 lg:w-1/4">
+                        <div class="w-32 h-32 overflow-hidden mx-auto">
+                            <img class="object-cover" src="assets/img/icons/application.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+        <div class="h-screen"></div>
+        <div class="h-screen"></div>
+        <div class="h-screen"></div>
+        <div class="h-screen"></div>
+
     </main>
 
     <footer class="px-3">
