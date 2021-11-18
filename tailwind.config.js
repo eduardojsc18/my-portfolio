@@ -1,6 +1,6 @@
 module.exports = {
     purge: {
-        enabled: true,
+        enabled: false,
         content: ['./resources/view/*.html'],
     },
     darkMode: false, // or 'media' or 'class'
@@ -39,10 +39,15 @@ module.exports = {
 
             scale: {
                 '5': '.05',
+                '25': '.25',
             },
 
             height: {
                 '300px': '300px'
+            },
+
+            boxShadow: {
+                'inner-y': 'inset 0px 8px 20px -20px rgba(0, 0, 0, 0.5), inset 0px -11px 8px -10px rgba(0, 0, 0, 0.05)',
             },
 
             borderRadius: {
@@ -54,6 +59,7 @@ module.exports = {
                 'shape-perfil': 'shape-perfil 30s ease alternate infinite ',
                 'shape-background-perfil': 'shape-background-perfil 20s ease infinite',
                 'wiggle': 'wiggle 1s ease-in-out infinite',
+                'shake': 'wiggle 5s ease-in-out infinite',
                 'animate-wave': 'animate-wave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards'
             },
 

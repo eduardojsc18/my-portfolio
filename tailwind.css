@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap) format('woff2'),
+        local('sans-serif');
+
+        font-display: swap;
+    }
+
+}
+
+
 @layer components {
 
     .animate-ease-in-out {
@@ -12,8 +27,16 @@
         display: block !important;
     }
 
-    .hidden-important {
-        display: none !important;
+    @media screen and (max-width: 1023px) {
+        .block-important-mobile {
+            display: block !important;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .hidden-important {
+            display: none !important;
+        }
     }
 
     [x-cloak="hidden"] {

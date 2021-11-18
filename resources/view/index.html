@@ -38,15 +38,15 @@
     >
 
     <header class="z-50"
-        x-data="{menuDesktop: false, contact: false}"
+        x-data="{openMenu: false, contact: false}"
         @scroll.window="fixeMenu = window.pageYOffset > 300 "
         :class="{'fixed right-3 lg:right-0 w-full transform hover:': fixeMenu}"
         >
 
         <div class="container flex justify-end items-center">
 
-            <div class="px-3 py-2 mt-5 lg:mt-8 animate-ease-in-out animate-ease-in-out block-important"
-                 :class="{'bg-gray-50 shadow-md hover:shadow-lg rounded-xl bg-opacity-50 backdrop-filter backdrop-blur-sm md:w-1/4': fixeMenu}"
+            <div class="px-3 py-2 mt-5 lg:mt-8 animate-ease-in-out block-important"
+                 :class="{'bg-gray-200 shadow-md hover:shadow-lg rounded-xl bg-opacity-50 backdrop-filter backdrop-blur-sm md:w-1/4': fixeMenu}"
                  x-show="fixeMenu"
                  x-transition:enter="transition-all ease-in-out duration-500 "
                  x-transition:enter-start="opacity-0 transform scale-0 -translate-y-52"
@@ -56,14 +56,12 @@
                  x-transition:leave-end="opacity-0 transform -translate-y-full"
                 >
 
-                <div class="flex items-center justify-end relative "
-                     :class="{'gap-5 ': !fixeMenu, 'gap-2': fixeMenu}"
-                    >
+                <div class="flex items-center justify-end relative gap-3">
 
                     <div class="relative">
 
-                        <input class="hidden lg:block py-2 pl-3 pr-10 bg-gray-200 border border-gray-300 rounded-md text-sm outline-none focus:bg-gray-50 focus:border-gray-500 focus:shadow-md transition-colors ease-in-out duration-200"
-                            :class="{'w-72 ': !fixeMenu, 'w-full': fixeMenu}"
+                        <input class="hidden lg:block py-2 pl-3 pr-10 border border-gray-300 rounded-md text-sm outline-none focus:bg-gray-50 focus:border-gray-500 focus:shadow-md transition-colors ease-in-out duration-200"
+                            :class="{'w-72 bg-gray-200': !fixeMenu, 'w-full bg-gray-100': fixeMenu}"
                             type="search"
                             name=""
                             id="search"
@@ -78,13 +76,12 @@
 
                     </div>
 
-                    <ul class="flex items-center"
-                        :class="{'gap-3': !fixeMenu, 'gap-2': fixeMenu}"
-                        >
-                        <li @mouseenter="contact = true" @mouseleave="contact = false">
-                            <div class="z-10 w-9 h-9 relative cursor-pointer" >
+                    <ul class="flex items-center gap-2">
 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
+                        <li @mouseenter="contact = true" @mouseleave="contact = false">
+                            <div class="z-10 w-10 h-10 relative cursor-pointer" >
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
                                     x-show="!contact"
                                     >
                                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -96,7 +93,7 @@
                                     x-cloak="hidden"
                                     >
 
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5  animate-ease-in-out" viewBox="0 0 20 20" fill="currentColor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 animate-ease-in-out" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M2.94 6.412A2 2 0 002 8.108V16a2 2 0 002 2h12a2 2 0 002-2V8.108a2 2 0 00-.94-1.696l-6-3.75a2 2 0 00-2.12 0l-6 3.75zm2.615 2.423a1 1 0 10-1.11 1.664l5 3.333a1 1 0 001.11 0l5-3.333a1 1 0 00-1.11-1.664L10 11.798 5.555 8.835z" clip-rule="evenodd" />
                                     </svg>
 
@@ -117,14 +114,16 @@
 
                             </div>
                         </li>
+
                         <li>
 
-                            <button class="rounded-md bg-gray-100 w-9 h-9 relative border"
-                                @click="menuDesktop = !menuDesktop"
+                            <button class="rounded-md w-10 h-10 relative"
+                                    :class="{'border shadow-md': !fixeMenu}"
+                                @click="openMenu = !openMenu"
                                 >
 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
-                                     x-show="!menuDesktop"
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
+                                     x-show="!openMenu"
                                      x-transition:enter="transition-all ease-in-out duration-200"
                                      x-transition:enter-start="opacity-0 transform scale-0"
                                      x-transition:enter-end="opacity-100 transform scale-100"
@@ -135,8 +134,8 @@
                                     <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
                                 </svg>
 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
-                                     x-show="menuDesktop"
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
+                                     x-show="openMenu"
                                      x-cloak="hidden"
                                      x-transition:enter="transition-all ease-in-out duration-200"
                                      x-transition:enter-start="opacity-0 transform scale-0"
@@ -150,24 +149,27 @@
 
                             </button>
 
-                            <div class="absolute top-12 lg:top-14 -right-3 lg:right-0">
-                                <div class="bg-black bg-opacity-50 rounded-lg backdrop-filter backdrop-blur w-300px h-32 flex items-center justify-center gap-3"
-                                     x-show="menuDesktop"
-                                     x-transition:enter="transition-all ease-in-out duration-200"
-                                     x-transition:enter-start="opacity-0 transform -translate-y-1/2"
-                                     x-transition:enter-end="opacity-100 transform translate-y-0"
-                                     x-transition:leave="transition ease-in-out duration-200"
-                                     x-transition:leave-start="opacity-100"
-                                     x-transition:leave-end="opacity-0"
-                                     x-cloak="hidden"
-                                     @click.away="menuDesktop = false"
+                            <div class="absolute top-12 lg:top-14 right-0 lg:right-0"
+                                :class="{'-right-3 lg:-right-3': fixeMenu}"
+                                 x-show="openMenu"
+                                 x-transition:enter="transition-all ease-in-out duration-200"
+                                 x-transition:enter-start="opacity-0 transform translate-x-1/2"
+                                 x-transition:enter-end="opacity-100 transform translate-x-0"
+                                 x-transition:leave="transition ease-in-out duration-200"
+                                 x-transition:leave-start="opacity-100"
+                                 x-transition:leave-end="opacity-0"
+                                 x-cloak="hidden"
                                 >
-                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 19h-1v-2.2c-1.853 4.237-6.083 7.2-11 7.2-6.623 0-12-5.377-12-12h1c0 6.071 4.929 11 11 11 4.66 0 8.647-2.904 10.249-7h-2.249v-1h4v4zm-11.036 0h-1.886c-.34-.957-.437-1.571-1.177-1.878h-.001c-.743-.308-1.251.061-2.162.494l-1.333-1.333c.427-.899.804-1.415.494-2.163-.308-.74-.926-.839-1.878-1.177v-1.886c.954-.339 1.57-.437 1.878-1.178.308-.743-.06-1.248-.494-2.162l1.333-1.333c.918.436 1.421.801 2.162.494l.001-.001c.74-.307.838-.924 1.177-1.877h1.886c.34.958.437 1.57 1.177 1.877l.001.001c.743.308 1.252-.062 2.162-.494l1.333 1.333c-.435.917-.801 1.421-.494 2.161v.001c.307.739.915.835 1.878 1.178v1.886c-.953.338-1.571.437-1.878 1.178-.308.743.06 1.249.494 2.162l-1.333 1.333c-.92-.438-1.42-.802-2.157-.496-.746.31-.844.926-1.183 1.88zm-.943-4.667c-1.289 0-2.333-1.044-2.333-2.333 0-1.289 1.044-2.334 2.333-2.334 1.289 0 2.333 1.045 2.333 2.334 0 1.289-1.044 2.333-2.333 2.333zm-8.021-5.333h-4v-4h1v2.2c1.853-4.237 6.083-7.2 11-7.2 6.623 0 12 5.377 12 12h-1c0-6.071-4.929-11-11-11-4.66 0-8.647 2.904-10.249 7h2.249v1z"/></svg>
+                                <div class="bg-gray-300 border border-gray-200 text-white rounded-lg shadow-md w-300px h-32 flex items-center justify-center gap-3"
+                                    @click.away="openMenu = false"
+                                    >
+                                    <svg class="fill-current" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 19h-1v-2.2c-1.853 4.237-6.083 7.2-11 7.2-6.623 0-12-5.377-12-12h1c0 6.071 4.929 11 11 11 4.66 0 8.647-2.904 10.249-7h-2.249v-1h4v4zm-11.036 0h-1.886c-.34-.957-.437-1.571-1.177-1.878h-.001c-.743-.308-1.251.061-2.162.494l-1.333-1.333c.427-.899.804-1.415.494-2.163-.308-.74-.926-.839-1.878-1.177v-1.886c.954-.339 1.57-.437 1.878-1.178.308-.743-.06-1.248-.494-2.162l1.333-1.333c.918.436 1.421.801 2.162.494l.001-.001c.74-.307.838-.924 1.177-1.877h1.886c.34.958.437 1.57 1.177 1.877l.001.001c.743.308 1.252-.062 2.162-.494l1.333 1.333c-.435.917-.801 1.421-.494 2.161v.001c.307.739.915.835 1.878 1.178v1.886c-.953.338-1.571.437-1.878 1.178-.308.743.06 1.249.494 2.162l-1.333 1.333c-.92-.438-1.42-.802-2.157-.496-.746.31-.844.926-1.183 1.88zm-.943-4.667c-1.289 0-2.333-1.044-2.333-2.333 0-1.289 1.044-2.334 2.333-2.334 1.289 0 2.333 1.045 2.333 2.334 0 1.289-1.044 2.333-2.333 2.333zm-8.021-5.333h-4v-4h1v2.2c1.853-4.237 6.083-7.2 11-7.2 6.623 0 12 5.377 12 12h-1c0-6.071-4.929-11-11-11-4.66 0-8.647 2.904-10.249 7h2.249v1z"/></svg>
                                     Pagina em construção
                                 </div>
                             </div>
 
                         </li>
+
                     </ul>
 
                 </div>
@@ -183,159 +185,162 @@
         :class="{'mt-20 md:mt-22': fixeMenu}"
         >
 
-        <div class="z-10 pt-5 pb-16">
+        <section class="container z-10 py-5">
+            <div class="py-8 lg:py-16 bg-gray-100 lg:hover:shadow-lg lg:hover:bg-white transform lg:hover:-translate-y-1 rounded-3xl bg-opacity-50 backdrop-filter backdrop-blur-3xl animate-ease-in-out">
+                <div class="grid md:grid-cols-2 gap-y-10 gap-x-5 gap-y-16">
 
-            <section class="container px-3 xl:px-0">
+                    <div class="mx-auto w-5/6 lg:w-400px relative">
 
-                <div class="px-3 py-8 lg:py-16 bg-gray-100 hover:shadow-lg hover:bg-white transform hover:-translate-y-1 rounded-3xl bg-opacity-50 backdrop-filter backdrop-blur-3xl animate-ease-in-out">
-                    <div class="grid md:grid-cols-2 gap-y-10 gap-x-5 gap-y-5">
-
-                        <div class="mx-auto w-5/6 lg:w-400px relative">
-
-                            <div class="z-10 animate-shape-perfil shadow-md overflow-hidden aspect-h-1 aspect-w-1">
-                                <img class="" src="../img/perfil/00100sPORTRAIT_00100_BURST20200711152721154_COVER-01%20(2).jpg" alt="">
-                            </div>
-
-                            <div class="absolute transform scale-110 top-0 left-0 w-full h-full bg-gradient-to-br from-gray-100 to-gray-300 animate-gradient-xy animate-shape-background-perfil"> </div>
-
+                        <div class="z-10 animate-shape-perfil shadow-md overflow-hidden aspect-h-1 aspect-w-1">
+                            <img class="" src="../img/perfil/00100sPORTRAIT_00100_BURST20200711152721154_COVER-01%20(2).jpg" alt="">
                         </div>
 
-                        <div class="xl:w-5/6 px-5 xl:px-0 flex flex-col justify-center text-gray-600 transform hover:scale-105 animate-ease-in-out"
-                            x-data="{showScroll: false}"
-                            x-intersect="showScroll = true"
-                            >
+                        <div class="absolute transform scale-110 top-0 left-0 w-full h-full bg-gradient-to-br from-gray-100 to-gray-300 animate-gradient-xy animate-shape-background-perfil"> </div>
 
-                            <p class="font-extrabold text-gray-600 uppercase"
-                                x-show="showScroll"
-                                x-cloak="hidden"
-                                x-transition:enter="transition-all ease-in-out duration-200 "
-                                x-transition:enter-start="opacity-0 transform -translate-y-full md:translate-y-0 md:-translate-x-1/3"
-                                x-transition:enter-end="opacity-100 transform translate-y-0 md:translate-x-0"
-                                >
-                                Seja Bem-vindo! <span class="font-normal normal-case">Me chamo</span>
+                    </div>
+
+                    <div class="xl:w-5/6 px-10 xl:px-0 flex flex-col justify-center text-gray-600 transform lg:hover:scale-105 animate-ease-in-out"
+                        x-data="{showScroll: false}"
+                        x-intersect="showScroll = true"
+                        >
+
+                        <p class="font-extrabold text-gray-600 uppercase"
+                            x-show="showScroll"
+                            x-cloak="hidden"
+                            x-transition:enter="transition-all ease-in-out duration-200 "
+                            x-transition:enter-start="opacity-0 transform -translate-y-full md:translate-y-0 md:-translate-x-1/3"
+                            x-transition:enter-end="opacity-100 transform translate-y-0 md:translate-x-0"
+                            >
+                            Seja Bem-vindo! <span class="font-normal normal-case">Me chamo</span>
+                        </p>
+
+                        <h1 class="text-4xl lg:text-6xl font-bold uppercase text-red-900 -ml-0.5 my-5 "
+                            x-show="showScroll"
+                            x-cloak="hidden"
+                            x-transition:enter="transition-all ease-in-out duration-500 delay-200 "
+                            x-transition:enter-start="opacity-0 transform -translate-y-full md:translate-y-0 md:-translate-x-1/3"
+                            x-transition:enter-end="opacity-100 transform translate-y-0 md:translate-x-0"
+                            >
+                            Eduardo José
+                        </h1>
+
+                        <div class="grid gap-3">
+
+                            <p class="text-sm md:text-base text-gray-800"
+                               x-show="showScroll"
+                               x-cloak="hidden"
+                               x-transition:enter="transition-all ease-in-out duration-500 delay-500"
+                               x-transition:enter-start="opacity-0 transform -translate-y-full md:translate-y-0 md:-translate-y-1/3"
+                               x-transition:enter-end="opacity-100 transform translate-y-0 md:translate-x-0"
+                            >
+                                Sou formado em <span class="font-semibold">Análise e Desenvolvimento de Sistemas</span>. Atuando no momento na área de desenvolvimento WEB, possuo 1 ano de experiência e...
                             </p>
 
-                            <h1 class="text-4xl lg:text-6xl font-bold uppercase text-red-900 -ml-0.5 my-5 "
-                                x-show="showScroll"
-                                x-cloak="hidden"
-                                x-transition:enter="transition-all ease-in-out duration-500 delay-200 "
-                                x-transition:enter-start="opacity-0 transform -translate-y-full md:translate-y-0 md:-translate-x-1/3"
-                                x-transition:enter-end="opacity-100 transform translate-y-0 md:translate-x-0"
-                                >
-                                Eduardo José
-                            </h1>
-
-                            <div class="grid gap-3">
-
-                                <p class="text-sm md:text-base text-gray-800"
-                                   x-show="showScroll"
-                                   x-cloak="hidden"
-                                   x-transition:enter="transition-all ease-in-out duration-500 delay-500"
-                                   x-transition:enter-start="opacity-0 transform -translate-y-full md:translate-y-0 md:-translate-y-1/3"
-                                   x-transition:enter-end="opacity-100 transform translate-y-0 md:translate-x-0"
-                                >
-                                    Sou formado em <span class="font-semibold">Análise e Desenvolvimento de Sistemas</span>. Atuando no momento na área de desenvolvimento WEB, possuo 1 ano de experiência e...
-                                </p>
-
-                                <div class="flex items-center justify-start gap-3 text-gray-400"
-                                     x-show="showScroll"
-                                     x-cloak="hidden"
-                                     x-transition:enter="transition-all ease-in-out duration-500 delay-700"
-                                     x-transition:enter-start="opacity-0 transform -translate-y-full md:translate-y-0 md:-translate-y-1/3"
-                                     x-transition:enter-end="opacity-100 transform translate-y-0 md:translate-x-0"
-                                >
-                                    <a href="#">
-                                        <svg class="w-8 h-8 fill-current transform hover:scale-105 hover:text-social-linkedin animate-ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                                    </a>
-                                    <a href="#">
-                                        <svg class="w-8 h-8 fill-current transform hover:scale-105 hover:text-social-twitter animate-ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/></svg>
-                                    </a>
-                                    <a href="#">
-                                        <svg class="w-8 h-8 fill-current transform hover:scale-105 hover:text-social-github animate-ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
-                                    </a>
-                                    <button class="bg-gray-400 hover:bg-yellow-500 rounded-lg p-1 overflow-hidden relative flex items-center gap-2 animate-ease-in-out text-white animate-wiggle hover:animate-none"
-                                        x-data="{'styleBtnContato': false}"
-                                        @mouseenter="styleBtnContato = true"
-                                        @mouseleave="styleBtnContato = false"
-                                        >
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:hidden h-6 w-6 fill-current " viewBox="0 0 20 20" fill="currentColor">
-                                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="hidden group-hover:block h-6 w-6 fill-current animate-ease-in-out" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M2.94 6.412A2 2 0 002 8.108V16a2 2 0 002 2h12a2 2 0 002-2V8.108a2 2 0 00-.94-1.696l-6-3.75a2 2 0 00-2.12 0l-6 3.75zm2.615 2.423a1 1 0 10-1.11 1.664l5 3.333a1 1 0 001.11 0l5-3.333a1 1 0 00-1.11-1.664L10 11.798 5.555 8.835z" clip-rule="evenodd" />
-                                        </svg>
-                                        <span class="text-sm mr-1 z-0"
-                                            x-show="styleBtnContato"
-                                            x-transition:enter="transition-all ease-in-out duration-300"
-                                            x-transition:enter-start="opacity-0 transform -translate-x-1/4"
-                                            x-transition:enter-end="opacity-100 transform translate-x-0 "
-                                            >
-                                            Entrar em contato
-                                        </span>
-                                    </button>
-
-                                </div>
+                            <div class="flex items-center justify-start gap-3 text-gray-400"
+                                 x-show="showScroll"
+                                 x-cloak="hidden"
+                                 x-transition:enter="transition-all ease-in-out duration-500 delay-700"
+                                 x-transition:enter-start="opacity-0 transform -translate-y-full md:translate-y-0 md:-translate-y-1/3"
+                                 x-transition:enter-end="opacity-100 transform translate-y-0 md:translate-x-0"
+                            >
+                                <a href="#">
+                                    <svg class="w-8 h-8 fill-current transform hover:scale-105 hover:text-social-linkedin animate-ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="w-8 h-8 fill-current transform hover:scale-105 hover:text-social-twitter animate-ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/></svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="w-8 h-8 fill-current transform hover:scale-105 hover:text-social-github animate-ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
+                                </a>
+                                <button class="group bg-gray-400 hover:bg-yellow-500 rounded-lg p-1 overflow-hidden relative flex items-center gap-2 animate-ease-in-out text-white lg:animate-wiggle hover:animate-none ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:hidden h-6 w-6 fill-current " viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="hidden group-hover:block h-6 w-6 fill-current animate-ease-in-out" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M2.94 6.412A2 2 0 002 8.108V16a2 2 0 002 2h12a2 2 0 002-2V8.108a2 2 0 00-.94-1.696l-6-3.75a2 2 0 00-2.12 0l-6 3.75zm2.615 2.423a1 1 0 10-1.11 1.664l5 3.333a1 1 0 001.11 0l5-3.333a1 1 0 00-1.11-1.664L10 11.798 5.555 8.835z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="text-sm mr-1 z-0 lg:hidden lg:group-hover:block">
+                                        Entrar em contato
+                                    </span>
+                                </button>
 
                             </div>
 
                         </div>
 
                     </div>
+
                 </div>
+            </div>
+        </section>
 
-            </section>
+        <div class="bg-gray-50 relative">
 
-        </div>
+            <div class="absolute top-0 w-full">
+                <svg class="transform lg:scale-y-25 lg:-mt-24 xl:-mt-40 filter drop-shadow-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F3F4F6" fill-opacity="1" d="M0,64L60,101.3C120,139,240,213,360,218.7C480,224,600,160,720,160C840,160,960,224,1080,256C1200,288,1320,288,1380,288L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+            </div>
 
-        <div class="bg-gray-50 shadow-inner py-20 overflow-hidden">
-            <section class="container"
+            <section class="container px-7 py-36 lg:px-0"
                  x-data="{showScroll: false}"
                  x-intersect.full="showScroll = true"
                 >
+                <div class="lg:w-2/4 mx-auto grid gap-y-16">
 
-                <div class="lg:w-3/4 px-5 mx-auto flex flex-col lg:flex-row items-center">
-
-                    <div class="order-2 lg:w-3/4"
-                         x-show="showScroll"
-                         x-cloak="hidden"
-                         x-transition:enter="transition-all ease-in-out duration-500 "
-                         x-transition:enter-start="opacity-0 transform -translate-y-full"
-                         x-transition:enter-end="opacity-100 transform translate-y-0"
+                    <h2 class="text-center text-4xl font-bold uppercase text-red-900"
+                        x-show="showScroll"
+                        x-cloak="hidden"
+                        x-transition:enter="transition-all ease-in-out duration-500"
+                        x-transition:enter-start="opacity-0 transform -translate-y-full"
+                        x-transition:enter-end="opacity-100 transform translate-y-0"
                         >
+                        Formação
+                    </h2>
 
-                        <h2 class="text-2xl text-center font-bold uppercase text-red-900 my-5 ">
-                            Minhas experiência
-                        </h2>
+                    <div class="grid gap-y-5">
 
-                        <div class="text-gray-600">
+                        <div class="group py-10 px-5 rounded-3xl flex flex-col lg:flex-row items-center justify-center gap-5 transform hover:scale-105 hover:bg-white hover:shadow-md animate-ease-in-out"
+                             x-show="showScroll"
+                             x-cloak="hidden"
+                             x-transition:enter="transition-all ease-in-out duration-500 delay-300"
+                             x-transition:enter-start="opacity-0 transform -translate-y-1/2"
+                             x-transition:enter-end="opacity-100 transform translate-y-0"
+                            >
 
-                            <div class="py-5 px-10 float-left">
-                                <svg class="w-full h-full" width="30" height="30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 19h-1v-2.2c-1.853 4.237-6.083 7.2-11 7.2-6.623 0-12-5.377-12-12h1c0 6.071 4.929 11 11 11 4.66 0 8.647-2.904 10.249-7h-2.249v-1h4v4zm-11.036 0h-1.886c-.34-.957-.437-1.571-1.177-1.878h-.001c-.743-.308-1.251.061-2.162.494l-1.333-1.333c.427-.899.804-1.415.494-2.163-.308-.74-.926-.839-1.878-1.177v-1.886c.954-.339 1.57-.437 1.878-1.178.308-.743-.06-1.248-.494-2.162l1.333-1.333c.918.436 1.421.801 2.162.494l.001-.001c.74-.307.838-.924 1.177-1.877h1.886c.34.958.437 1.57 1.177 1.877l.001.001c.743.308 1.252-.062 2.162-.494l1.333 1.333c-.435.917-.801 1.421-.494 2.161v.001c.307.739.915.835 1.878 1.178v1.886c-.953.338-1.571.437-1.878 1.178-.308.743.06 1.249.494 2.162l-1.333 1.333c-.92-.438-1.42-.802-2.157-.496-.746.31-.844.926-1.183 1.88zm-.943-4.667c-1.289 0-2.333-1.044-2.333-2.333 0-1.289 1.044-2.334 2.333-2.334 1.289 0 2.333 1.045 2.333 2.334 0 1.289-1.044 2.333-2.333 2.333zm-8.021-5.333h-4v-4h1v2.2c1.853-4.237 6.083-7.2 11-7.2 6.623 0 12 5.377 12 12h-1c0-6.071-4.929-11-11-11-4.66 0-8.647 2.904-10.249 7h2.249v1z"/></svg>
+                            <img class="group-hover:animate-shake w-20 h-20" src="assets/img/icons/application.png" alt="">
+
+                            <div class="grid gap-y-2">
+                                <p class="text-sm">Primeiro contato na área veio através do técnico em</p>
+                                <p class="font-bold text-2xl text-gray-800">Informática para Internet</p>
+                                <p class="font-light">Finalizado em Junho de 2014, na ETEC - Santa Isabel</p>
                             </div>
 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique mi id odio scelerisque euismod. Nulla facilisi. Etiam mollis ligula vel mauris interdum, at tempus velit rhoncus. Cras ut purus non mauris suscipit placerat. Pellentesque varius placerat ornare. Praesent vitae quam dignissim, accumsan felis maximus, lobortis nibh. Phasellus ac massa vitae metus egestas pharetra ut nec dui. Nam laoreet pulvinar lectus vel tincidunt. Etiam eleifend pulvinar nulla vitae iaculis. Ut nec massa porttitor, dapibus magna ultricies, tincidunt ante.
+                        </div>
+
+                        <div class="group py-10 px-5 rounded-3xl flex flex-col lg:flex-row items-center justify-center gap-5 transform hover:scale-105 hover:bg-white hover:shadow-md animate-ease-in-out"
+                             x-show="showScroll"
+                             x-cloak="hidden"
+                             x-transition:enter="transition-all ease-in-out duration-500 delay-300"
+                             x-transition:enter-start="opacity-0 transform -translate-y-1/2"
+                             x-transition:enter-end="opacity-100 transform translate-y-0"
+                            >
+
+                            <img class="group-hover:animate-shake w-20 h-20" src="assets/img/icons/student.png" alt="">
+
+                            <div class="grid gap-y-2">
+                                <p class="text-sm">Após ficar encantado com a área 🥰 segui minha formação com o tecnólogo </p>
+                                <p class="font-bold text-2xl text-gray-800">Análise e Desenvolvimento de Sistemas</p>
+                                <p class="font-light">Finalizado em Dezembro de 2018, na Universidade Nove de Julho</p>
+                            </div>
 
                         </div>
 
-                    </div>
-
-                    <div class="order-1 lg:order-2 lg:w-1/4">
-                        <div class="w-32 h-32 overflow-hidden mx-auto">
-                            <img class="object-cover" src="assets/img/icons/application.png" alt="">
-                        </div>
                     </div>
 
                 </div>
-
             </section>
+
         </div>
-
-        <div class="h-screen"></div>
-        <div class="h-screen"></div>
-        <div class="h-screen"></div>
-        <div class="h-screen"></div>
-
     </main>
 
     <footer class="px-3">
@@ -360,8 +365,9 @@
         </div>
     </footer>
 
-    <!-- SCRIPTS -->
+    <!-- Alpine Plugins -->
     <script defer src="https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <!-- Alpine Core -->
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 </body>
