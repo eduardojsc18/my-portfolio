@@ -40,51 +40,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body class="flex flex-col min-h-screen font-roboto bg-gray-100"
-    x-data="{fixeMenu: false}"
+    x-data="{}"
     >
 
-    <header class="z-50"
-        x-data="{openMenu: false, contact: false}"
-        @scroll.window="fixeMenu = window.pageYOffset > 300 "
-        :class="{'fixed right-3 lg:right-0 w-full transform hover:': fixeMenu}"
+    <header class="z-50 fixed w-full"
+        x-data="{openMenu: false, contact: false, scrollMenu: false}"
+        @scroll.window="scrollMenu = window.pageYOffset > 300 "
         >
 
-        <div class="container flex justify-end items-center">
+        <div class="container px-3 flex justify-end items-center">
 
-            <div class="px-3 py-2 mt-5 lg:mt-8 animate-ease-in-out block-important"
-                 :class="{'bg-gray-200 shadow-md hover:shadow-lg rounded-xl bg-opacity-50 backdrop-filter backdrop-blur-sm md:w-1/4': fixeMenu}"
-                 x-show="fixeMenu"
-                 x-transition:enter="transition-all ease-in-out duration-500 "
-                 x-transition:enter-start="opacity-0 transform scale-0 -translate-y-52"
-                 x-transition:enter-end="opacity-100 transform scale-105 translate-y-0"
-                 x-transition:leave="transition ease-in-out duration-200"
-                 x-transition:leave-start="opacity-100 transform translate-y-0"
-                 x-transition:leave-end="opacity-0 transform -translate-y-full"
+            <nav class="px-3 py-2 mt-5 lg:mt-8 rounded-xl animate-ease-in-out "
+                 :class="{'bg-gray-300 bg-opacity-50 backdrop-filter backdrop-blur-sm shadow-md hover:shadow-lg': scrollMenu}"
                 >
 
-                <div class="flex items-center justify-end relative gap-3">
+                <ul class="w-full flex items-center justify-end gap-3 relative">
 
-                    <div class="relative">
+                    <li class="relative group">
 
-                        <input class="hidden lg:block py-2 pl-3 pr-10 border border-gray-300 rounded-md text-sm outline-none focus:bg-gray-50 focus:border-gray-500 focus:shadow-md transition-colors ease-in-out duration-200"
-                            :class="{'w-72 bg-gray-200': !fixeMenu, 'w-full bg-gray-100': fixeMenu}"
+                        <input class="hidden group-hover:block lg:block py-2 pl-3 pr-8 focus:w-full lg:focus:w-72 opacity-0 focus:opacity-100 lg:opacity-100 border border-gray-300 rounded-md text-sm outline-none focus:bg-gray-50 focus:border-gray-500 focus:shadow-md animate-ease-in-out"
+                            :class="{'md:w-72 bg-gray-200': !scrollMenu, 'md:w-36 bg-gray-100': scrollMenu}"
                             type="search"
                             name=""
                             id="search"
-                            placeholder="Pesquise aqui aqui."
+                            placeholder="Pesquise aqui."
                             >
 
-                        <label for="search" class="lg:absolute top-2 right-2 ">
+                        <label for="search" class="group-hover:absolute lg:absolute top-2 right-2 ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current text-gray-500" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
                             </svg>
                         </label>
 
-                    </div>
+                    </li>
 
-                    <ul class="flex items-center gap-2">
-
-                        <li @mouseenter="contact = true" @mouseleave="contact = false">
+                    <li @mouseenter="contact = true" @mouseleave="contact = false">
                             <div class="z-10 w-10 h-10 relative cursor-pointer" >
 
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
@@ -121,79 +111,166 @@
                             </div>
                         </li>
 
-                        <li>
+                    <li>
 
-                            <button class="rounded-md w-10 h-10 relative"
-                                    :class="{'border shadow-md': !fixeMenu}"
-                                @click="openMenu = !openMenu"
-                                >
+                        <button class="rounded-md w-10 h-10 relative"
+                            :class="{'border shadow-md': !scrollMenu}"
+                            @click="openMenu = !openMenu"
+                            >
 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
-                                     x-show="!openMenu"
-                                     x-transition:enter="transition-all ease-in-out duration-200"
-                                     x-transition:enter-start="opacity-0 transform scale-0"
-                                     x-transition:enter-end="opacity-100 transform scale-100"
-                                     x-transition:leave="transition ease-in-out duration-200"
-                                     x-transition:leave-start="opacity-100 transform scale-100"
-                                     x-transition:leave-end="opacity-0 transform scale-0"
-                                >
-                                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
-                                </svg>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
-                                     x-show="openMenu"
-                                     x-cloak="hidden"
-                                     x-transition:enter="transition-all ease-in-out duration-200"
-                                     x-transition:enter-start="opacity-0 transform scale-0"
-                                     x-transition:enter-end="opacity-100 transform scale-100"
-                                     x-transition:leave="transition ease-in-out duration-200"
-                                     x-transition:leave-start="opacity-100 transform scale-100"
-                                     x-transition:leave-end="opacity-0 transform scale-0"
-                                >
-                                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                </svg>
-
-                            </button>
-
-                            <div class="absolute top-12 lg:top-14 right-0 lg:right-0"
-                                :class="{'-right-3 lg:-right-3': fixeMenu}"
-                                 x-show="openMenu"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
+                                 x-show="!openMenu"
                                  x-transition:enter="transition-all ease-in-out duration-200"
-                                 x-transition:enter-start="opacity-0 transform translate-x-1/2"
-                                 x-transition:enter-end="opacity-100 transform translate-x-0"
+                                 x-transition:enter-start="opacity-0 transform scale-0"
+                                 x-transition:enter-end="opacity-100 transform scale-100"
                                  x-transition:leave="transition ease-in-out duration-200"
-                                 x-transition:leave-start="opacity-100"
-                                 x-transition:leave-end="opacity-0"
+                                 x-transition:leave-start="opacity-100 transform scale-100"
+                                 x-transition:leave-end="opacity-0 transform scale-0"
+                            >
+                                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                            </svg>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" viewBox="0 0 20 20" fill="currentColor"
+                                 x-show="openMenu"
                                  x-cloak="hidden"
+                                 x-transition:enter="transition-all ease-in-out duration-200"
+                                 x-transition:enter-start="opacity-0 transform scale-0"
+                                 x-transition:enter-end="opacity-100 transform scale-100"
+                                 x-transition:leave="transition ease-in-out duration-200"
+                                 x-transition:leave-start="opacity-100 transform scale-100"
+                                 x-transition:leave-end="opacity-0 transform scale-0"
+                            >
+                                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+
+                        </button>
+
+                        <div class="absolute top-14 right-0 lg:right-0"
+                            :class="{'-right-3 lg:-right-3': scrollMenu}"
+                            x-show="openMenu"
+                            x-transition:enter="transition-all ease-in-out duration-200"
+                            x-transition:enter-start="opacity-0 transform translate-x-1/2"
+                            x-transition:enter-end="opacity-100 transform translate-x-0"
+                            x-transition:leave="transition-opacity ease-in-out duration-200"
+                            x-transition:leave-start="opacity-100"
+                            x-transition:leave-end="opacity-0"
+                            x-cloak="hidden"
+                            >
+                            <div class="bg-white border border-gray-200 text-gray-800 rounded-lg shadow-md hover:shadow-lg w-300px animate-ease-in-out px-5 pt-6 space-y-3"
+                                @click.away="openMenu = false"
                                 >
-                                <div class="bg-gray-300 border border-gray-200 text-white rounded-lg shadow-md w-300px h-32 flex items-center justify-center gap-3"
-                                    @click.away="openMenu = false"
-                                    >
-                                    <svg class="fill-current" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 19h-1v-2.2c-1.853 4.237-6.083 7.2-11 7.2-6.623 0-12-5.377-12-12h1c0 6.071 4.929 11 11 11 4.66 0 8.647-2.904 10.249-7h-2.249v-1h4v4zm-11.036 0h-1.886c-.34-.957-.437-1.571-1.177-1.878h-.001c-.743-.308-1.251.061-2.162.494l-1.333-1.333c.427-.899.804-1.415.494-2.163-.308-.74-.926-.839-1.878-1.177v-1.886c.954-.339 1.57-.437 1.878-1.178.308-.743-.06-1.248-.494-2.162l1.333-1.333c.918.436 1.421.801 2.162.494l.001-.001c.74-.307.838-.924 1.177-1.877h1.886c.34.958.437 1.57 1.177 1.877l.001.001c.743.308 1.252-.062 2.162-.494l1.333 1.333c-.435.917-.801 1.421-.494 2.161v.001c.307.739.915.835 1.878 1.178v1.886c-.953.338-1.571.437-1.878 1.178-.308.743.06 1.249.494 2.162l-1.333 1.333c-.92-.438-1.42-.802-2.157-.496-.746.31-.844.926-1.183 1.88zm-.943-4.667c-1.289 0-2.333-1.044-2.333-2.333 0-1.289 1.044-2.334 2.333-2.334 1.289 0 2.333 1.045 2.333 2.334 0 1.289-1.044 2.333-2.333 2.333zm-8.021-5.333h-4v-4h1v2.2c1.853-4.237 6.083-7.2 11-7.2 6.623 0 12 5.377 12 12h-1c0-6.071-4.929-11-11-11-4.66 0-8.647 2.904-10.249 7h2.249v1z"/></svg>
-                                    Pagina em construção
+
+                                <p class="font-light text-sm">Acesso rápido as categoria</p>
+
+                                <ul class="space-y-1.5">
+                                    <li class="group">
+                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
+
+                                            <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
+                                                <span class="group-hover:animate-wiggle">🧔🏻</span>
+                                            </div>
+                                            <p class="transform group-hover:translate-x-1 animate-ease-in-out">
+                                                Cartão de visita
+                                            </p>
+
+                                        </a>
+                                    </li>
+
+                                    <li class="group">
+                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
+
+                                            <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
+                                                <span class="group-hover:animate-wiggle">🎓</span>
+                                            </div>
+                                            <p class="transform group-hover:translate-x-1 animate-ease-in-out">
+                                                Minhas formações
+                                            </p>
+
+                                        </a>
+                                    </li>
+
+                                    <li class="group">
+                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
+
+                                            <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
+                                                <span class="group-hover:animate-wiggle">⚙</span>
+                                            </div>
+                                            <p class="transform group-hover:translate-x-1 animate-ease-in-out">
+                                                Experiencia
+                                            </p>
+
+                                        </a>
+                                    </li>
+
+                                    <li class="group">
+                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
+
+                                            <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
+                                                <span class="group-hover:animate-wiggle">💡</span>
+                                            </div>
+                                            <p class="transform group-hover:translate-x-1 animate-ease-in-out">
+                                                Projetos
+                                            </p>
+
+                                        </a>
+                                    </li>
+
+                                    <li class="group">
+                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
+
+                                            <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
+                                                <span class="group-hover:animate-wiggle">🎮</span>
+                                            </div>
+                                            <p class="transform group-hover:translate-x-1 animate-ease-in-out">
+                                                Um pouco mais sobre mim
+                                            </p>
+
+
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="border-t py-3">
+
+                                    <p class="font-light text-sm">Arquivos</p>
+
+                                    <div class="group">
+                                        <a class="flex items-center gap-2 border border-transparent  hover:shadow-md hover:border-gray-400 rounded-md animate-ease-in-out" href="">
+
+                                            <div class="text-xl w-9 h-9 rounded-md flex justify-center items-center">
+                                                <img class="w-5 h-5 group-hover:animate-wiggle filter drop-shadow-lg" src="assets/img/icons/download-cv.png" alt="">
+                                            </div>
+                                            <p class="transform group-hover:translate-x-1 animate-ease-in-out">
+                                                Baixar currículo
+                                            </p>
+
+                                        </a>
+                                    </div>
+
+
+
                                 </div>
+
                             </div>
+                        </div>
 
-                        </li>
+                    </li>
 
-                    </ul>
+                </ul>
 
-                </div>
-
-            </div>
+            </nav>
             
         </div>
 
 
     </header>
 
-    <main class="flex flex-col flex-grow "
-        :class="{'mt-20 md:mt-22': fixeMenu}"
-        >
+    <main class="flex flex-col flex-grow">
 
-        <section class="container z-10 py-5">
+        <section class="container z-10 pt-20 lg:pt-28 pb-10">
             <div class="py-8 lg:py-16 bg-gray-100 lg:hover:shadow-lg lg:hover:bg-white transform lg:hover:-translate-y-1 rounded-3xl bg-opacity-50 backdrop-filter backdrop-blur-3xl animate-ease-in-out">
-                <div class="grid md:grid-cols-2 gap-y-10 gap-x-5 gap-y-16">
+                <div class="grid md:grid-cols-2 gap-x-5 gap-y-16">
 
                     <div class="mx-auto w-5/6 lg:w-400px relative">
 
@@ -205,7 +282,7 @@
 
                     </div>
 
-                    <div class="xl:w-5/6 px-10 xl:px-0 flex flex-col justify-center text-gray-600 transform lg:hover:scale-105 animate-ease-in-out"
+                    <div class="xl:w-5/6 px-10 lg:pl-0 xl:p-5 flex flex-col justify-center text-gray-600 transform lg:hover:scale-105 animate-ease-in-out"
                         x-data="{showScroll: false}"
                         x-intersect="showScroll = true"
                         >
@@ -347,6 +424,7 @@
             </section>
 
         </div>
+
     </main>
 
     <footer class="px-3">

@@ -1,6 +1,6 @@
 module.exports = {
     purge: {
-        enabled: false,
+        enabled: true,
         content: ['./resources/view/*.html'],
     },
     darkMode: false, // or 'media' or 'class'
@@ -101,31 +101,23 @@ module.exports = {
                     },
                 },
 
-                'animate-wave': {
-
-                    '0%': {
-                        transform: ['translateX(0)', 'translateZ(0)', 'scaleY(1)']
-                    },
-                    '50%': {
-                        transform: ['translateX(-25%)', 'translateZ(0)', 'scaleY(0.55)']
-                    },
-                    '100%': {
-                        transform: ['translateX(-50%)', 'translateZ(0)', 'scaleY(1)']
-                    },
-
-                }
             }
+
         },
 
     },
     variants: {
         extend: {
 
+            width: ['focus'],
             scale: ['group-hover'],
             display: ['group-hover'],
+            position: ['group-hover'],
             animation: ['group-hover', 'hover'],
             translate: ['group-hover'],
-            overflow: ['hover']
+            overflow: ['hover'],
+
+            focus: ['responsive']
 
         },
     },
