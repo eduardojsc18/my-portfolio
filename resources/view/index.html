@@ -39,9 +39,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body class="flex flex-col min-h-screen font-roboto bg-gray-100"
-    x-data="{}"
-    >
+<body class="flex flex-col min-h-screen font-roboto bg-gray-100">
 
     <header class="z-50 fixed w-full"
         x-data="{openMenu: false, contact: false, scrollMenu: false}"
@@ -164,7 +162,9 @@
 
                                 <ul class="space-y-1.5">
                                     <li class="group">
-                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
+                                        <div class="w-full cursor-pointer flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out"
+                                            @click="document.querySelector('#visit-card').scrollIntoView({behavior: 'smooth'})"
+                                            >
 
                                             <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
                                                 <span class="group-hover:animate-wiggle">🧔🏻</span>
@@ -173,11 +173,13 @@
                                                 Cartão de visita
                                             </p>
 
-                                        </a>
+                                        </div>
                                     </li>
 
                                     <li class="group">
-                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
+                                        <div class="w-full cursor-pointer flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out"
+                                            @click="document.querySelector('#formations').scrollIntoView({behavior: 'smooth'})"
+                                            >
 
                                             <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
                                                 <span class="group-hover:animate-wiggle">🎓</span>
@@ -186,11 +188,12 @@
                                                 Minhas formações
                                             </p>
 
-                                        </a>
+                                        </div>
                                     </li>
 
                                     <li class="group">
-                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
+                                        <div class="w-full cursor-pointer flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out"
+                                            >
 
                                             <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
                                                 <span class="group-hover:animate-wiggle">⚙</span>
@@ -199,12 +202,12 @@
                                                 Experiencia
                                             </p>
 
-                                        </a>
+                                        </div>
                                     </li>
 
                                     <li class="group">
-                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
-
+                                        <div class="w-full cursor-pointer flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out"
+                                            >
                                             <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
                                                 <span class="group-hover:animate-wiggle">💡</span>
                                             </div>
@@ -212,11 +215,12 @@
                                                 Projetos
                                             </p>
 
-                                        </a>
+                                        </div>
                                     </li>
 
                                     <li class="group">
-                                        <a class="flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out" href="">
+                                        <div class="w-full cursor-pointer flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out"
+                                            >
 
                                             <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
                                                 <span class="group-hover:animate-wiggle">🎮</span>
@@ -225,8 +229,7 @@
                                                 Um pouco mais sobre mim
                                             </p>
 
-
-                                        </a>
+                                        </div>
                                     </li>
 
                                 </ul>
@@ -236,7 +239,9 @@
                                     <p class="font-light text-sm">Arquivos</p>
 
                                     <div class="group">
-                                        <a class="flex items-center gap-2 border border-transparent  hover:shadow-md hover:border-gray-400 rounded-md animate-ease-in-out" href="">
+                                        <a class="flex items-center gap-2 border border-transparent  hover:shadow-md hover:border-gray-400 rounded-md animate-ease-in-out"
+                                           href=""
+                                            >
 
                                             <div class="text-xl w-9 h-9 rounded-md flex justify-center items-center">
                                                 <img class="w-5 h-5 group-hover:animate-wiggle filter drop-shadow-lg" src="assets/img/icons/download-cv.png" alt="">
@@ -268,14 +273,14 @@
 
     <main class="flex flex-col flex-grow">
 
-        <section class="container z-10 pt-20 lg:pt-28 pb-10">
+        <section id="visit-card" class="container z-10 pt-20 lg:pt-28 pb-10">
             <div class="py-8 lg:py-16 bg-gray-100 lg:hover:shadow-lg lg:hover:bg-white transform lg:hover:-translate-y-1 rounded-3xl bg-opacity-50 backdrop-filter backdrop-blur-3xl animate-ease-in-out">
                 <div class="grid md:grid-cols-2 gap-x-5 gap-y-16">
 
                     <div class="mx-auto w-5/6 lg:w-400px relative">
 
                         <div class="z-10 animate-shape-perfil shadow-md overflow-hidden aspect-h-1 aspect-w-1">
-                            <img class="" src="../img/perfil/00100sPORTRAIT_00100_BURST20200711152721154_COVER-01%20(2).jpg" alt="">
+                            <img class="" src="assets/img/perfil/profile-photo-card-visit.webp" alt="">
                         </div>
 
                         <div class="absolute transform scale-110 top-0 left-0 w-full h-full bg-gradient-to-br from-gray-100 to-gray-300 animate-gradient-xy animate-shape-background-perfil"> </div>
@@ -364,7 +369,7 @@
                 <svg class="transform lg:scale-y-25 lg:-mt-24 xl:-mt-40 filter drop-shadow-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F3F4F6" fill-opacity="1" d="M0,64L60,101.3C120,139,240,213,360,218.7C480,224,600,160,720,160C840,160,960,224,1080,256C1200,288,1320,288,1380,288L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
             </div>
 
-            <section class="container px-7 py-36 lg:px-0"
+            <section id="formations" class="container px-7 py-36 lg:px-0"
                  x-data="{showScroll: false}"
                  x-intersect.full="showScroll = true"
                 >
@@ -427,7 +432,7 @@
 
     </main>
 
-    <footer class="px-3">
+    <footer id="footer" x-ref="footer" class="px-3">
         <div class="container px-3 py-5 text-gray-800 space-y-3 relative group">
 
             <div class="flex items-center justify-center gap-3">
