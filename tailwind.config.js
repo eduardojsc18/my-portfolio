@@ -1,6 +1,6 @@
 module.exports = {
     purge: {
-        enabled: true,
+        enabled: false,
         content: ['./resources/view/*.html'],
     },
     darkMode: false, // or 'media' or 'class'
@@ -42,12 +42,20 @@ module.exports = {
                 '25': '.25',
             },
 
+            zIndex: {
+              '-1': '-1'
+            },
+
             height: {
                 '300px': '300px'
             },
 
             boxShadow: {
                 'inner-y': 'inset 0px 8px 20px -20px rgba(0, 0, 0, 0.5), inset 0px -11px 8px -10px rgba(0, 0, 0, 0.05)',
+            },
+
+            dropShadow: {
+                'top': '0 -2px 2px rgba(0, 0, 0, 0.1)',
             },
 
             borderRadius: {

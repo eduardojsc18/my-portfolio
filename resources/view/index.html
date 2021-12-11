@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns:x-transition="http://www.w3.org/1999/xhtml" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -193,6 +193,7 @@
 
                                     <li class="group">
                                         <div class="w-full cursor-pointer flex items-center gap-2 border border-transparent hover:bg-gray-100 hover:shadow-md hover:border-gray-400 rounded-md overflow-hidden animate-ease-in-out"
+                                            @click="document.querySelector('#experience').scrollIntoView({behavior: 'smooth'}); openMenu = false"
                                             >
 
                                             <div class="text-xl bg-gray-100 w-9 h-9 rounded-md overflow-hidden flex justify-center items-center">
@@ -240,7 +241,8 @@
 
                                     <div class="group">
                                         <a class="flex items-center gap-2 border border-transparent  hover:shadow-md hover:border-gray-400 rounded-md animate-ease-in-out"
-                                           href=""
+                                           href="assets/files/cv_eduardo.pdf"
+                                           download="cv_eduardo"
                                             >
 
                                             <div class="text-xl w-9 h-9 rounded-md flex justify-center items-center">
@@ -286,7 +288,7 @@
 
                     </div>
 
-                    <div class="xl:w-5/6 px-10 lg:pl-0 xl:p-5 flex flex-col justify-center text-gray-600 transform lg:hover:scale-105 animate-ease-in-out"
+                    <div class="w-5/6 mx-auto md:mx-0 lg:pl-0 xl:p-5 flex flex-col justify-center text-gray-600 transform lg:hover:scale-105 animate-ease-in-out"
                         x-data="{showScroll: false}"
                         x-intersect="showScroll = true"
                         >
@@ -362,76 +364,149 @@
             </div>
         </section>
 
-        <div class="bg-gray-50 relative">
+        <div class="bg-gray-50 relative overflow-hidden">
 
             <div class="absolute top-0 w-full">
-                <svg class="transform lg:scale-y-25 lg:-mt-24 xl:-mt-40 filter drop-shadow-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F3F4F6" fill-opacity="1" d="M0,64L60,101.3C120,139,240,213,360,218.7C480,224,600,160,720,160C840,160,960,224,1080,256C1200,288,1320,288,1380,288L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+                <svg class="filter drop-shadow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F3F4F6" fill-opacity="1" d="M0,160L60,149.3C120,139,240,117,360,106.7C480,96,600,96,720,112C840,128,960,160,1080,160C1200,160,1320,128,1380,112L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
             </div>
 
-            <section id="formations" class="container px-7 py-36 lg:px-0"
-                 x-data="{showScroll: false}"
-                 x-intersect.full="showScroll = true"
-                >
-                <div class="lg:w-2/4 mx-auto grid gap-y-16">
+            <div class="mt-32 md:mt-40 mb-10 container">
+                <div class="lg:w-4/5 mx-auto grid lg:grid-cols-2">
 
-                    <h2 class="text-center text-4xl font-bold uppercase text-red-900"
-                        x-show="showScroll"
-                        x-cloak="hidden"
-                        x-transition:enter="transition-all ease-in-out duration-500"
-                        x-transition:enter-start="opacity-0 transform -translate-y-full"
-                        x-transition:enter-end="opacity-100 transform translate-y-0"
+                    <section id="formations" class="z-20 px-7 lg:px-0 pt-20 md:pt-10"
+                         x-data="{showScroll: false}"
+                         x-intersect.full="showScroll = true"
                         >
-                        Formação
-                    </h2>
+                        <div class="mx-auto grid gap-y-10">
 
-                    <div class="grid gap-y-5">
-
-                        <div class="group py-10 px-5 rounded-3xl flex flex-col lg:flex-row items-center justify-center gap-5 transform hover:scale-105 hover:bg-white hover:shadow-md animate-ease-in-out"
-                             x-show="showScroll"
-                             x-cloak="hidden"
-                             x-transition:enter="transition-all ease-in-out duration-500 delay-300"
-                             x-transition:enter-start="opacity-0 transform -translate-y-1/2"
-                             x-transition:enter-end="opacity-100 transform translate-y-0"
+                            <h2 class="text-center text-4xl font-bold uppercase text-red-900"
+                                x-show="showScroll"
+                                x-cloak="hidden"
+                                x-transition:enter="transition-all ease-in-out duration-500"
+                                x-transition:enter-start="opacity-0 transform -translate-y-full"
+                                x-transition:enter-end="opacity-100 transform translate-y-0"
                             >
+                                Formação
+                            </h2>
 
-                            <img class="group-hover:animate-shake w-20 h-20" width="80" height="80" src="assets/img/icons/application.png" alt="">
+                            <div class="grid gap-y-5">
 
-                            <div class="grid gap-y-2">
-                                <p class="text-sm">Primeiro contato na área veio através do técnico em</p>
-                                <p class="font-bold text-2xl text-gray-800">Informática para Internet</p>
-                                <p class="font-light">Finalizado em Junho de 2014, na ETEC - Santa Isabel</p>
+                                <div class="group py-10 px-5 md:px-8 rounded-3xl flex flex-col lg:flex-row items-center justify-center md:justify-start gap-5 transform hover:scale-105 hover:bg-white hover:shadow-md animate-ease-in-out"
+                                     x-show="showScroll"
+                                     x-cloak="hidden"
+                                     x-transition:enter="transition-all ease-in-out duration-500 delay-300"
+                                     x-transition:enter-start="opacity-0 transform -translate-y-1/2"
+                                     x-transition:enter-end="opacity-100 transform translate-y-0"
+                                >
+
+                                    <img class="lg:hidden group-hover:animate-shake w-20 h-20" width="80" height="80" src="assets/img/icons/application.png" alt="">
+
+                                    <div class="grid gap-y-2">
+                                        <p class="text-sm">Primeiro contato na área veio através do técnico em</p>
+                                        <p class="font-bold text-2xl text-gray-800">Informática para Internet</p>
+                                        <p class="font-light">Finalizado em Junho de 2014, na ETEC - Santa Isabel</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="group py-10 px-5 md:px-8 rounded-3xl flex flex-col lg:flex-row items-center justify-center md:justify-start gap-5 transform hover:scale-105 hover:bg-white hover:shadow-md animate-ease-in-out"
+                                     x-show="showScroll"
+                                     x-cloak="hidden"
+                                     x-transition:enter="transition-all ease-in-out duration-500 delay-300"
+                                     x-transition:enter-start="opacity-0 transform -translate-y-1/2"
+                                     x-transition:enter-end="opacity-100 transform translate-y-0"
+                                    >
+
+                                    <img class="lg:hidden group-hover:animate-shake w-20 h-20" width="80" height="80" src="assets/img/icons/student.png" alt="">
+
+                                    <div class="grid gap-y-2">
+                                        <p class="text-sm">Após ficar encantado com a área 🥰 segui minha formação com o tecnólogo </p>
+                                        <p class="font-bold text-2xl text-gray-800">Análise e Desenvolvimento de Sistemas</p>
+                                        <p class="font-light">Finalizado em Dezembro de 2018, na Universidade Nove de Julho</p>
+                                    </div>
+
+                                </div>
+
                             </div>
 
                         </div>
+                    </section>
 
-                        <div class="group py-10 px-5 rounded-3xl flex flex-col lg:flex-row items-center justify-center gap-5 transform hover:scale-105 hover:bg-white hover:shadow-md animate-ease-in-out"
-                             x-show="showScroll"
-                             x-cloak="hidden"
-                             x-transition:enter="transition-all ease-in-out duration-500 delay-300"
-                             x-transition:enter-start="opacity-0 transform -translate-y-1/2"
-                             x-transition:enter-end="opacity-100 transform translate-y-0"
-                            >
-
-                            <img class="group-hover:animate-shake w-20 h-20" width="80" height="80" src="assets/img/icons/student.png" alt="">
-
-                            <div class="grid gap-y-2">
-                                <p class="text-sm">Após ficar encantado com a área 🥰 segui minha formação com o tecnólogo </p>
-                                <p class="font-bold text-2xl text-gray-800">Análise e Desenvolvimento de Sistemas</p>
-                                <p class="font-light">Finalizado em Dezembro de 2018, na Universidade Nove de Julho</p>
-                            </div>
-
-                        </div>
-
+                    <div class="hidden md:flex items-center justify-center relative">
+                        <img class="w-60 animate-shake" src="assets/img/icons/application.png" alt="">
                     </div>
 
+                    <div class="hidden md:flex items-center justify-center relative">
+                        <img class="w-80 animate-shake" src="../img/banners/banner-work.png" alt="">
+                    </div>
+
+                    <section id="experience" class="z-20 px-7 lg:px-0 pt-20"
+                         x-data="{showScroll: false}"
+                         x-intersect.full="showScroll = true"
+                        >
+                        <div class="mx-auto grid gap-y-10">
+
+                            <h2 class="text-center text-4xl font-bold uppercase text-red-900"
+                                x-show="showScroll"
+                                x-cloak="hidden"
+                                x-transition:enter="transition-all ease-in-out duration-500"
+                                x-transition:enter-start="opacity-0 transform -translate-y-full"
+                                x-transition:enter-end="opacity-100 transform translate-y-0"
+                            >
+                                Experiências
+                            </h2>
+
+                            <div class="grid gap-y-5">
+
+                                <div class="group py-10 px-5 md:px-8 rounded-3xl flex flex-col lg:flex-row items-center justify-center md:justify-start gap-5 transform hover:scale-105 hover:bg-white hover:shadow-md animate-ease-in-out"
+                                     x-show="showScroll"
+                                     x-cloak="hidden"
+                                     x-transition:enter="transition-all ease-in-out duration-500 delay-300"
+                                     x-transition:enter-start="opacity-0 transform -translate-y-1/2"
+                                     x-transition:enter-end="opacity-100 transform translate-y-0"
+                                >
+
+                                    <img class="lg:hidden group-hover:animate-shake w-20 h-20" width="80" height="80" src="assets/img/icons/application.png" alt="">
+
+                                    <div class="grid gap-y-2">
+                                        <p class="text-sm">Primeiro contato na área veio através do técnico em</p>
+                                        <p class="font-bold text-2xl text-gray-800">Informática para Internet</p>
+                                        <p class="font-light">Finalizado em Junho de 2014, na ETEC - Santa Isabel</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="group py-10 px-5 md:px-8 rounded-3xl flex flex-col lg:flex-row items-center justify-center md:justify-start gap-5 transform hover:scale-105 hover:bg-white hover:shadow-md animate-ease-in-out"
+                                     x-show="showScroll"
+                                     x-cloak="hidden"
+                                     x-transition:enter="transition-all ease-in-out duration-500 delay-300"
+                                     x-transition:enter-start="opacity-0 transform -translate-y-1/2"
+                                     x-transition:enter-end="opacity-100 transform translate-y-0"
+                                >
+
+                                    <img class="lg:hidden group-hover:animate-shake w-20 h-20" width="512" height="512" src="assets/img/icons/student.png" alt="">
+
+                                    <div class="grid gap-y-2">
+                                        <p class="text-sm">Após ficar encantado com a área 🥰 segui minha formação com o tecnólogo </p>
+                                        <p class="font-bold text-2xl text-gray-800">Análise e Desenvolvimento de Sistemas</p>
+                                        <p class="font-light">Finalizado em Dezembro de 2018, na Universidade Nove de Julho</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+
                 </div>
-            </section>
+            </div>
 
         </div>
 
     </main>
 
-    <footer id="footer" x-ref="footer" class="px-3">
+    <footer id="footer" class="z-50 px-3">
         <div class="container px-3 py-5 text-gray-800 space-y-3 relative group">
 
             <div class="flex items-center justify-center gap-3">
